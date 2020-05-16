@@ -2699,7 +2699,7 @@
       font-size: 3.8rem;
       display: inline-block;
       position: relative;
-      left: 5px;
+      left: -10px;
       bottom: 80px;
       animation: mymove1 5s infinite;
       width: 100%;
