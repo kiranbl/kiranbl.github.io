@@ -1,0 +1,6762 @@
+@media (min-width: 1508px) {
+  body.sec {
+    background-color: #f4f4f4;
+    height: 100%;
+    background-image: url("https://www.transparenttextures.com/patterns/subtle-dots.png");
+    color: #232020;
+    margin: 0;
+  }
+
+  html {
+    display: block;
+    scroll-behavior: smooth;
+    height: 4600px;
+  }
+
+  .nav {
+    width: 100%;
+    height: 100px;
+    background-color: #232020;
+    position: fixed;
+    z-index: 1;
+    display: block;
+  }
+
+  .name {
+    color: #f4f4f4;
+    padding: 1.6rem;
+    margin: 0px;
+    display: inline-block;
+    position: relative;
+    left: 1200px;
+    font-family: 'Galada', cursive;
+    font-weight: lighter;
+    font-size: 2rem;
+    letter-spacing: .1rem;
+    text-decoration: none;
+  }
+
+  @media (min-width: 1608px) {
+    .name {
+      color: #f4f4f4;
+      padding: 1.6rem;
+      margin: 0px;
+      display: inline-block;
+      position: relative;
+      left: 1300px;
+      font-family: 'Galada', cursive;
+      font-weight: lighter;
+      font-size: 2rem;
+      letter-spacing: .1rem;
+      text-decoration: none;
+    }
+  }
+
+  @media (min-width: 1708px) {
+    .name {
+      color: #f4f4f4;
+      padding: 1.6rem;
+      margin: 0px;
+      display: inline-block;
+      position: relative;
+      left: 1400px;
+      font-family: 'Galada', cursive;
+      font-weight: lighter;
+      font-size: 2rem;
+      letter-spacing: .1rem;
+      text-decoration: none;
+    }
+  }
+
+  @media (min-width: 1808px) {
+    .name {
+      color: #f4f4f4;
+      padding: 1.6rem;
+      margin: 0px;
+      display: inline-block;
+      position: relative;
+      left: 1500px;
+      font-family: 'Galada', cursive;
+      font-weight: lighter;
+      font-size: 2rem;
+      letter-spacing: .1rem;
+      text-decoration: none;
+    }
+  }
+
+  @media (min-width: 1908px) {
+    .name {
+      color: #f4f4f4;
+      padding: 1.6rem;
+      margin: 0px;
+      display: inline-block;
+      position: relative;
+      left: 1600px;
+      font-family: 'Galada', cursive;
+      font-weight: lighter;
+      font-size: 2rem;
+      letter-spacing: .1rem;
+      text-decoration: none;
+    }
+  }
+
+  @media (min-width: 2008px) {
+    .name {
+      color: #f4f4f4;
+      padding: 1.6rem;
+      margin: 0px;
+      display: inline-block;
+      position: relative;
+      left: 1700px;
+      font-family: 'Galada', cursive;
+      font-weight: lighter;
+      font-size: 2rem;
+      letter-spacing: .1rem;
+      text-decoration: none;
+    }
+  }
+
+  @media (min-width: 2108px) {
+    .name {
+      color: #f4f4f4;
+      padding: 1.6rem;
+      margin: 0px;
+      display: inline-block;
+      position: relative;
+      left: 1800px;
+      font-family: 'Galada', cursive;
+      font-weight: lighter;
+      font-size: 2rem;
+      letter-spacing: .1rem;
+      text-decoration: none;
+    }
+  }
+
+  @media (min-width: 2208px) {
+    .name {
+      color: #f4f4f4;
+      padding: 1.6rem;
+      margin: 0px;
+      display: inline-block;
+      position: relative;
+      left: 1900px;
+      font-family: 'Galada', cursive;
+      font-weight: lighter;
+      font-size: 2rem;
+      letter-spacing: .1rem;
+      text-decoration: none;
+    }
+  }
+
+  #wordChanger {
+    color: #f4f4f4;
+    font-family: 'Galada', cursive;
+    font-weight: lighter;
+    font-size: 2rem;
+    letter-spacing: .1rem;
+  }
+
+  #wordChanger:hover {
+    color: #FFD700;
+  }
+
+  #wordChanger:before {
+    content: 'Kiran B L';
+    right: 0px;
+    animation: changeText 10s ease reverse forwards infinite;
+  }
+
+  @keyframes changeText {
+    100% {
+      content: 'Kiran B L';
+      opacity: 0;
+    }
+
+    95% {
+      content: 'Kiran B L';
+      opacity: 1;
+    }
+
+    80% {
+      content: 'Kiran B L';
+      opacity: 1;
+    }
+
+    76% {
+      content: 'Kiran B L';
+      opacity: 0;
+    }
+
+    75% {
+      content: 'Download';
+      opacity: 0;
+    }
+
+    70% {
+      content: 'Download';
+      opacity: 1;
+    }
+
+    55% {
+      content: 'Download';
+      opacity: 1;
+    }
+
+    51% {
+      content: 'Download';
+      opacity: 0;
+    }
+
+    50% {
+      content: 'Resume';
+      opacity: 0;
+    }
+
+    45% {
+      content: 'Resume';
+      opacity: 1;
+    }
+
+    30% {
+      content: 'Resume';
+      opacity: 1;
+    }
+
+    26% {
+      content: 'Resume';
+      opacity: 0;
+    }
+
+    25% {
+      content: 'Kiran B L';
+      opacity: 0;
+    }
+
+    20% {
+      content: 'Kiran B L';
+      opacity: 1;
+    }
+
+    5% {
+      content: 'Kiran B L';
+      opacity: 1;
+    }
+
+    0% {
+      content: 'Kiran B L';
+      opacity: 0;
+    }
+  }
+
+  .but {
+    background-color: inherit;
+    padding: 0px;
+    width: 56px;
+    height: 66px;
+    border: 0px;
+    position: relative;
+    left: 25px;
+    top: 0px;
+    border-radius: 5px;
+    outline: 0px;
+  }
+
+  .button-img {
+    color: #f4f4f4;
+  }
+
+  .button-img:hover {
+    color: #ff7315;
+  }
+
+  .nav-menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 100px;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+    opacity: 0.8;
+  }
+
+  a.navA {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #f4f4f4;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Poiret One', cursive;
+  }
+
+  a.navA:hover {
+    color: #ff7315;
+  }
+
+  .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  .Heading {
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+    display: inline-block;
+    padding: 20px;
+    visibility: hidden;
+  }
+
+  #About {
+    text-align: center;
+    width: 100%;
+    height: 700px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .HeadingAbout {
+    font-family: 'Galada', cursive;
+    font-size: 10rem;
+    right: 400px;
+    position: relative;
+    display: inline-block;
+    font-weight: lighter;
+    top: 150px;
+    margin: 0px;
+    letter-spacing: 10px;
+    margin-left: 0px;
+    animation: tada 3s 1 ease;
+  }
+
+  .H {
+    font-family: 'Galada', cursive;
+    font-size: 30rem;
+    font-weight: lighter;
+    top: 60px;
+    left: 40px;
+    letter-spacing: -30px;
+    animation: tada 3s 1 ease;
+  }
+
+  @keyframes tada {
+    from {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+
+    10%,
+    20% {
+      -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+      transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+    }
+
+    30%,
+    50%,
+    70%,
+    90% {
+      -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+      transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    }
+
+    40%,
+    60%,
+    80% {
+      -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+      transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    }
+
+    to {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  }
+
+  .Greeting {
+    text-align: left;
+    font-family: 'Poiret One', cursive;
+    position: relative;
+    display: inline-block;
+    left: -600px;
+    top: 10px;
+    background-color: inherit;
+    text-decoration: none;
+  }
+
+  .l {
+    padding: 2px;
+    color: gray;
+    position: relative;
+    display: block;
+    font-size: 1rem;
+    transition: 0.3s;
+    animation-name: zoomIn;
+    animation-duration: 1s;
+  }
+
+  @keyframes zoomIn {
+    from {
+      opacity: 0;
+      -webkit-transform: scale3d(0.3, 0.3, 0.3);
+      transform: scale3d(0.3, 0.3, 0.3);
+    }
+
+    50% {
+      opacity: 1;
+    }
+  }
+
+  .l:hover {
+    color: black;
+    font-size: 2.5rem;
+  }
+
+  .ProPic {
+    width: 450px;
+    height: 300px;
+    top: 150px;
+    right: 250px;
+    position: absolute;
+    display: inline-block;
+  }
+
+  .bio {
+    font-family: 'Poiret One', cursive;
+    font-size: 2rem;
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    top: 440px;
+    right: 110px;
+    margin: 0px;
+    width: 600px;
+    font-weight: 400;
+  }
+
+  .IMP {
+    font-family: 'Poiret One', cursive;
+    font-size: 2.3rem;
+    font-weight: 600;
+  }
+
+  .IMP1 {
+    color: #232020;
+    font-family: 'Poiret One', cursive;
+    font-size: 2.3rem;
+    border-radius: 10%;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .IMP1:hover {
+    color: #ff7315;
+  }
+
+  .S1End {
+    border-style: dotted;
+    border-width: thick;
+    width: 100px;
+    text-align: center;
+    border-top: none;
+    border-spacing: 20px;
+    border-color: #ff7315;
+  }
+
+  #MySkills {
+    text-align: center;
+    width: 100%;
+    height: 2300px;
+    position: relative;
+    display: inline-block;
+    padding-top: 50px;
+    margin-top: -50px;
+  }
+
+  .quote {
+    text-align: center;
+    font-family: 'Galada', cursive;
+    font-size: 6rem;
+    display: inline-block;
+    position: relative;
+    right: 70px;
+    top: -30px;
+    animation: mymove 5s infinite;
+  }
+
+  @keyframes mymove {
+    50% {
+      text-shadow: 5px 6px #ff7315;
+    }
+  }
+
+  .Programming {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: inline-block;
+    top: -50px;
+  }
+
+  .Programming-icons {
+    position: relative;
+    display: inline-block;
+    width: 1000px;
+    height: 400px;
+    right: 100px;
+    top: 50px;
+  }
+
+  .img1 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    right: 100px;
+  }
+
+  .img2 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+  }
+
+  .img3 {
+    width: 100px;
+    height: 105px;
+    position: relative;
+    left: 100px;
+    bottom: 105px;
+  }
+
+  .img1:hover, .img2:hover, .img3:hover {
+    filter: drop-shadow(3px 3px #FFD700);
+  }
+
+  .Description {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    display: inline-block;
+    bottom: 50px;
+    right: 250px;
+  }
+
+  .ProgHeadDec {
+    font-family: 'Poiret One', cursive;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    display: inline-block;
+    position: relative;
+    font-size: 1.3rem;
+    left: 10px;
+    top: 10px;
+    margin: 0px;
+    font-weight: bolder;
+  }
+
+  .ProgHeadDec1 {
+    font-family: 'Poiret One', cursive;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    display: inline-block;
+    position: relative;
+    font-size: 1.3rem;
+    top: 10px;
+    margin: 0px;
+    font-weight: bolder;
+    right: 10px;
+  }
+
+  .HeadAnim.in-view {
+    font-family: 'Noto Serif', serif;
+    font-size: 2.3rem;
+    position: relative;
+    display: inline-block;
+    top: 20px;
+    background-color: inherit;
+    animation: center-animate 2s linear 1;
+  }
+
+  @keyframes center-animate {
+    0% {
+      background-color: inherit;
+    }
+
+    100% {
+      background-color: #FFD700;
+    }
+  }
+
+  .Desc {
+    position: relative;
+    display: inline-block;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.1rem;
+    font-style: normal;
+    letter-spacing: 2px;
+    height: auto;
+  }
+
+  .WebDevelopment {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: inline-block;
+    top: 50px;
+  }
+
+  .Web-icons {
+    position: relative;
+    display: inline-block;
+    width: 1000px;
+    height: 400px;
+    right: 100px;
+    top: 50px;
+  }
+
+  .wimg1 {
+    width: 130px;
+    height: 120px;
+    position: relative;
+    right: 100px;
+    top: 10px;
+  }
+
+  .img2 {
+    width: 150px;
+    height: 150px;
+    position: relative;
+  }
+
+  .wimg3 {
+    width: 100px;
+    height: 105px;
+    position: relative;
+    left: 100px;
+    bottom: 115px;
+  }
+
+  .wimg1:hover, .img2:hover, .wimg3:hover {
+    filter: drop-shadow(3px 3px #FFD700);
+  }
+
+  .WDescription {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    display: inline-block;
+    top: 5px;
+    right: 250px;
+  }
+
+  .WebHeadDec {
+    font-family: 'Poiret One', cursive;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    display: inline-block;
+    position: relative;
+    font-size: 1.3rem;
+    left: 10px;
+    top: 10px;
+    margin: 0px;
+    font-weight: bolder;
+  }
+
+  .WebHeadDec1 {
+    font-family: 'Poiret One', cursive;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    display: inline-block;
+    position: relative;
+    font-size: 1.3rem;
+    top: 10px;
+    margin: 0px;
+    font-weight: bolder;
+    right: 10px;
+  }
+
+  .HeadAnim1.in-view {
+    font-family: 'Noto Serif', serif;
+    font-size: 2.3rem;
+    position: relative;
+    display: inline-block;
+    top: 20px;
+    background-color: inherit;
+    animation: center-animate 2s linear 1;
+  }
+
+  @keyframes center-animate {
+    0% {
+      background-color: inherit;
+    }
+
+    100% {
+      background-color: #FFD700;
+    }
+  }
+
+  .WDesc {
+    position: relative;
+    display: inline-block;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    text-align: center;
+    width: auto;
+    height: 50px;
+    letter-spacing: 1px;
+  }
+
+  .EthicalHacking {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    display: inline-block;
+    top: 200px;
+  }
+
+  .e-icons {
+    position: relative;
+    display: inline-block;
+    width: 1000px;
+    height: 400px;
+    right: 100px;
+    top: 50px;
+  }
+
+  .img1 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    right: 100px;
+  }
+
+  .img2 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+  }
+
+  .img3 {
+    width: 100px;
+    height: 105px;
+    position: relative;
+    left: 100px;
+    bottom: 105px;
+  }
+
+  .img1:hover, .img2:hover, .img3:hover {
+    filter: drop-shadow(3px 3px #FFD700);
+  }
+
+  .eDescription {
+    width: 400px;
+    height: 400px;
+    ;
+    position: relative;
+    display: inline-block;
+    bottom: 100px;
+    right: 250px;
+  }
+
+  .ETHICAL {
+    font-family: 'Poiret One', cursive;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    display: inline-block;
+    position: relative;
+    font-size: 1.25rem;
+    left: 10px;
+    top: 10px;
+    margin: 0px;
+    font-weight: bolder;
+  }
+
+  .ETHICAL1 {
+    font-family: 'Poiret One', cursive;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    display: inline-block;
+    position: relative;
+    font-size: 1.25rem;
+    top: 10px;
+    margin: 0px;
+    font-weight: bolder;
+    right: 10px;
+  }
+
+  .HeadAnim2.in-view {
+    font-family: 'Noto Serif', serif;
+    font-size: 2.3rem;
+    position: relative;
+    display: inline-block;
+    top: 20px;
+    background-color: inherit;
+    animation: center-animate 2s linear 1;
+  }
+
+  @keyframes center-animate {
+    0% {
+      background-color: inherit;
+    }
+
+    100% {
+      background-color: #FFD700;
+    }
+  }
+
+  .EDesc {
+    position: relative;
+    display: inline-block;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.1rem;
+    font-style: normal;
+    letter-spacing: 2px;
+  }
+
+  .DesignGameDevelopment {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: inline-block;
+    top: 220px;
+  }
+
+  .d-icons {
+    position: relative;
+    display: inline-block;
+    width: 800px;
+    height: 400px;
+    right: 10px;
+    top: 100px;
+  }
+
+  .img1 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    right: 100px;
+  }
+
+  .img2 {
+    width: 110px;
+    height: 110px;
+    position: relative;
+  }
+
+  .dimg3 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 100px;
+    bottom: 105px;
+  }
+
+  .img1:hover, .img2:hover, .dimg3:hover {
+    filter: drop-shadow(3px 3px #FFD700);
+  }
+
+  .DDescription {
+    width: 600px;
+    height: 500px;
+    position: relative;
+    display: inline-block;
+    top: 110px;
+    right: 100px;
+  }
+
+  .DHeadDec {
+    font-family: 'Poiret One', cursive;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    display: inline-block;
+    position: relative;
+    font-size: 1.3rem;
+    left: 10px;
+    top: -10px;
+    margin: 0px;
+    font-weight: bolder;
+  }
+
+  .DHeadDec1 {
+    font-family: 'Poiret One', cursive;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    display: inline-block;
+    position: relative;
+    font-size: 1.3rem;
+    top: -10px;
+    margin: 0px;
+    font-weight: bolder;
+    right: 10px;
+  }
+
+  .HeadAnim3.in-view {
+    font-family: 'Noto Serif', serif;
+    font-size: 2.0rem;
+    position: relative;
+    display: inline-block;
+    top: -20px;
+    background-color: inherit;
+    animation: center-animate 2s linear 1;
+  }
+
+  @keyframes center-animate {
+    0% {
+      background-color: inherit;
+    }
+
+    100% {
+      background-color: #FFD700;
+    }
+  }
+
+  .DescD {
+    position: relative;
+    display: inline-block;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.1rem;
+    font-style: normal;
+    letter-spacing: .2px;
+    line-height: 25px;
+    top: -30px;
+  }
+
+  /* icons animation */
+  .anim.in-view {
+    animation: iconanim;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+  }
+
+  @keyframes iconanim {
+    20% {
+      filter: drop-shadow(3px 3px #FFD700);
+    }
+  }
+
+  /* paragrah animation */
+  .pAnim.in-view {
+    animation-name: fadeInOut;
+    animation-duration: 2s;
+    animation-delay: 100ms;
+  }
+
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .hAnim.in-view {
+    animation-name: fadeInOut;
+    animation-duration: 1s;
+  }
+
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .S1End1 {
+    border-style: dotted;
+    border-width: medium;
+    width: 100px;
+    text-align: center;
+    border-top: none;
+    border-spacing: 20px;
+    border-color: #ff7315;
+    position: relative;
+    display: block;
+    top: 200px;
+  }
+
+  #Education {
+    text-align: center;
+    width: 100%;
+    height: 700px;
+    position: relative;
+    display: inline-block;
+    padding-top: 50px;
+    margin-top: -50px;
+    top: 200px;
+  }
+
+  .EducaHead {
+    text-align: center;
+    font-family: 'Galada', cursive;
+    font-size: 6.5rem;
+    display: inline-block;
+    position: relative;
+    left: 500px;
+    bottom: 520px;
+    animation: mymove1 5s infinite;
+  }
+
+  @keyframes mymove1 {
+    50% {
+      text-shadow: 5px 5px #ff7315;
+    }
+  }
+
+  .Tble {
+    overflow: auto;
+    top: -10px;
+    position: relative;
+    display: inline-block;
+    right: 200px;
+    width: auto;
+  }
+
+  .EduTable {
+    display: inline-block;
+    position: relative;
+    top: 1px;
+    text-align: left;
+    border-bottom: 5px;
+    border-radius: 4px;
+    border-color: #f4f4f4;
+    border-style: ridge;
+    background-color: #232020;
+    color: #f4f4f4;
+  }
+
+  thead th {
+    font-family: 'Poiret One', cursive;
+    font-size: 2.5rem;
+    font-weight: bold;
+    background-color: #232020;
+    color: #f4f4f4;
+    padding: 10px;
+    height: 80px;
+    text-align: center;
+  }
+
+  table.EduTable td a {
+    color: #f4f4f4;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+  }
+
+  table.EduTable td a:hover {
+    color: #FFD700;
+  }
+
+  tbody td:nth-child(even) {
+    background-color: #f4f4f4;
+    color: #232020;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+  }
+
+  tbody td:nth-child(odd) {
+    background-color: #232020;
+    color: #f4f4f4;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+  }
+
+  td {
+    padding: 20px;
+    border-color: #f4f4f4;
+    border-top: 1px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-style: solid;
+  }
+
+  tr.in-view {
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  .S1EndT {
+    border-style: dotted;
+    border-width: medium;
+    width: 100px;
+    text-align: center;
+    border-top: none;
+    border-spacing: 20px;
+    border-color: #ff7315;
+    position: relative;
+    display: block;
+    top: 200px;
+  }
+
+  #Contact {
+    text-align: center;
+    width: 100%;
+    height: 700px;
+    position: relative;
+    display: inline-block;
+    padding-top: 50px;
+    margin-top: -50px;
+    top: 200px;
+  }
+
+  .ContHead {
+    text-align: center;
+    font-family: 'Galada', cursive;
+    font-size: 6.5rem;
+    display: inline-block;
+    position: relative;
+    right: 50px;
+    bottom: 50px;
+    animation: mymove1 5s infinite;
+  }
+
+  @keyframes mymove1 {
+    50% {
+      text-shadow: 5px 5px #ff7315;
+    }
+  }
+
+  .Form {
+    width: 800px;
+    height: 300px;
+    position: absolute;
+    display: inline-block;
+    top: 300px;
+    right: 450px;
+  }
+
+  label {
+    padding: 10px;
+    background-color: #232020;
+    color: #f4f4f4;
+    width: 400px;
+    font-family: 'Poiret One', cursive;
+    font-size: 2rem;
+    position: relative;
+    right: 500px;
+  }
+
+  label.m {
+    padding: 10px;
+    background-color: #232020;
+    color: #f4f4f4;
+    width: 400px;
+    font-family: 'Poiret One', cursive;
+    font-size: 2rem;
+    position: relative;
+    right: 405px;
+    top: 1px;
+  }
+
+  input {
+    padding: 10px;
+    margin: 20px;
+    height: 20px;
+    width: 400px;
+    position: relative;
+    right: 375px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  input:focus {
+    outline-color: #ff7315;
+    outline-width: thick;
+    box-shadow: 5px 5px #ff7315;
+  }
+
+  textarea {
+    padding: 10px;
+    margin: 20px;
+    height: 50px;
+    width: 400px;
+    position: relative;
+    right: 375px;
+    top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+  }
+
+  textarea:focus {
+    outline-color: #ff7315;
+    outline-width: thick;
+    box-shadow: 5px 5px #ff7315;
+  }
+
+  .Submit {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    right: 50px;
+    bottom: 70px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Poiret One', cursive;
+    font-size: 2rem;
+    background-color: #232020;
+    color: #f4f4f4;
+    outline: 0px;
+  }
+
+  .Submit:hover {
+    background-color: #f4f4f4;
+    color: #232020;
+    box-shadow: 5px 5px #ff7315;
+    outline: 0px;
+  }
+
+  .SocialHead {
+    text-align: center;
+    font-family: 'Galada', cursive;
+    font-size: 4rem;
+    display: inline-block;
+    position: relative;
+    left: 730px;
+    bottom: 130px;
+    width: 600px;
+    animation: mymove3 5s infinite;
+  }
+
+  @keyframes mymove3 {
+    50% {
+      text-shadow: 5px 5px #FFD700;
+    }
+  }
+
+  .ArrImg {
+    width: 40px;
+    height: 60px;
+    display: inline-block;
+    position: relative;
+    bottom: 50px;
+    animation: arrowanim 3s infinite;
+    left: 420px;
+  }
+
+  @keyframes arrowanim {
+    0% {
+      filter: drop-shadow(3px 5px #FFD700);
+    }
+
+    50% {
+      filter: drop-shadow(3px 5px #ff7315);
+    }
+
+    100% {
+      filter: drop-shadow(3px 5px #FFD700);
+    }
+  }
+
+  .SocialImg {
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    background-color: inherit;
+    width: 600px;
+    height: 50px;
+    border-radius: 2px;
+    left: 100px;
+  }
+
+  .IconProp {
+    color: #232020;
+    padding: 20px;
+  }
+
+  .IconPropMAIL {
+    color: #232020;
+    position: relative;
+    display: inline-block;
+    left: -10px;
+    top: 5px;
+  }
+
+  .IconPropMAIL:hover {
+    color: #D44638;
+  }
+
+  .Mail {
+    font-family: 'Poiret One', cursive;
+    text-decoration: none;
+    color: #232020;
+    font-size: 1.2rem;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    bottom: 15px;
+  }
+
+  .highlight {
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #232020;
+    font-size: 1.5rem;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-top: 2px;
+    bottom: 20px;
+  }
+
+  .highlight:hover {
+    color: #D44638;
+  }
+
+  .fa-linkedin:hover {
+    color: #0e76a8;
+  }
+
+  .fa-instagram:hover {
+    color: #C13584;
+  }
+
+  .fa-facebook-square:hover {
+    color: #3b5998;
+  }
+
+  .fa-twitter-square:hover {
+    color: #00acee;
+  }
+
+  footer {
+    background-color: #232020;
+    width: auto;
+    height: 50px;
+    display: block;
+    position: relative;
+    top: 150px;
+  }
+
+  .Foot {
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #f4f4f4;
+    text-align: center;
+  }
+}
+
+/* MOBILE CSS */
+@media (max-width: 577px) {
+  body.sec {
+    background-color: #f4f4f;
+    height: 100%;
+    background-image: url("https://www.transparenttextures.com/patterns/subtle-dots.png");
+    color: #232020;
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  html {
+    display: block;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+
+  .nav {
+    width: 100%;
+    height: 100px;
+    background-color: #232020;
+    position: fixed;
+    z-index: 1;
+    display: block;
+  }
+
+  .name {
+    width: 100% color: #f4f4f4;
+    margin: 0px;
+    padding: 30px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    left: 50px;
+    font-family: 'Galada', cursive;
+    font-weight: lighter;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+    top: 5px;
+  }
+
+  #wordChanger {
+    color: #f4f4f4;
+    font-family: 'Galada', cursive;
+    font-weight: lighter;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+  }
+
+  #wordChanger:hover {
+    color: #FFD700;
+  }
+
+  #wordChanger:before {
+    content: 'Kiran B L';
+    animation: changeText 10s ease reverse forwards infinite
+  }
+
+  @keyframes changeText {
+    100% {
+      content: 'Kiran B L';
+      opacity: 0;
+    }
+
+    95% {
+      content: 'Kiran B L';
+      opacity: 1;
+    }
+
+    80% {
+      content: 'Kiran B L';
+      opacity: 1;
+    }
+
+    76% {
+      content: 'Kiran B L';
+      opacity: 0;
+    }
+
+    75% {
+      content: 'Download';
+      opacity: 0;
+    }
+
+    70% {
+      content: 'Download';
+      opacity: 1;
+    }
+
+    55% {
+      content: 'Download';
+      opacity: 1;
+    }
+
+    51% {
+      content: 'Download';
+      opacity: 0;
+    }
+
+    50% {
+      content: 'Resume';
+      opacity: 0;
+    }
+
+    45% {
+      content: 'Resume';
+      opacity: 1;
+    }
+
+    30% {
+      content: 'Resume';
+      opacity: 1;
+    }
+
+    26% {
+      content: 'Resume';
+      opacity: 0;
+    }
+
+    25% {
+      content: 'Kiran B L';
+      opacity: 0;
+    }
+
+    20% {
+      content: 'Kiran B L';
+      opacity: 1;
+    }
+
+    5% {
+      content: 'Kiran B L';
+      opacity: 1;
+    }
+
+    0% {
+      content: 'Kiran B L';
+      opacity: 0;
+    }
+  }
+
+  .but {
+    background-color: inherit;
+    padding: 0px;
+    width: 16px;
+    height: 20px;
+    border: 0px;
+    position: relative;
+    left: 25px;
+    top: 10px;
+    border-radius: 5px;
+    outline: 0px;
+  }
+
+  .button-img {
+    color: #f4f4f4;
+  }
+
+  .button-img:hover {
+    color: #ff7315;
+  }
+
+  .nav-menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 100px;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+    opacity: 0.8;
+  }
+
+  a.navA {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #f4f4f4;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Poiret One', cursive;
+  }
+
+  a.navA:hover {
+    color: #ff7315;
+  }
+
+  .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  .Heading {
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+    display: inline-block;
+    padding: 20px;
+    visibility: hidden;
+  }
+
+  #About {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+  }
+
+  .HeadingAbout {
+    font-family: 'Galada', cursive;
+    font-size: 3rem;
+    left: 100px;
+    position: relative;
+    display: inline-block;
+    font-weight: lighter;
+    top: 130px;
+    margin: 0px;
+    width: 100%;
+    letter-spacing: 5px;
+    text-align: center;
+    animation: tada 2s 1 ease;
+  }
+
+  .H {
+    font-family: 'Galada', cursive;
+    font-size: 6rem;
+    font-weight: lighter;
+    top: 1px;
+    left: 5px;
+    position: relative;
+    display: inline-block;
+    animation: tada 2s 1 ease;
+  }
+
+  @keyframes tada {
+    from {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+
+    10%,
+    20% {
+      -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+      transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+    }
+
+    30%,
+    50%,
+    70%,
+    90% {
+      -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+      transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    }
+
+    40%,
+    60%,
+    80% {
+      -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+      transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    }
+
+    to {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  }
+
+  .Greeting {
+    display: none;
+  }
+
+  .DivPic {
+    max-width: 100%;
+    position: relative;
+    display: inline-block;
+    top: -50px;
+    left: -30px;
+    margin-right: 30px;
+  }
+
+  .ProPic {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+  }
+
+  @media (max-width: 410px) {
+    .DivPic {
+      max-width: 100%;
+      position: relative;
+      display: inline-block;
+      top: -50px;
+      left: -90px;
+      margin-right: 10px;
+    }
+
+    .ProPic {
+      width: 300px;
+      height: 200px;
+      position: relative;
+      display: inline-block;
+    }
+  }
+
+  .bio {
+    font-family: 'Poiret One', cursive;
+    font-size: 1.8rem;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    top: -50px;
+    width: 100%;
+    height: 100%;
+    font-weight: 50;
+    padding: 0px 10px 0px 5px;
+  }
+
+  .IMP {
+    font-family: 'Poiret One', cursive;
+    font-size: 2.3rem;
+    font-weight: bold;
+  }
+
+  .IMP1 {
+    color: #232020;
+    font-family: 'Poiret One', cursive;
+    font-size: 2.3rem;
+    border-radius: 10%;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .IMP1:hover {
+    color: #ff7315;
+  }
+
+  .S1End {
+    border-style: dotted;
+    border-width: medium;
+    width: 100px;
+    text-align: center;
+    border-top: none;
+    border-spacing: 20px;
+    border-color: #ff7315;
+    position: relative;
+    display: block;
+    top: 50px;
+  }
+
+  #MySkills {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    padding-top: 50px;
+    margin-top: -50px;
+    top: 50px;
+  }
+
+  .quote {
+    text-align: center;
+    font-family: 'Galada', cursive;
+    font-size: 3.8rem;
+    display: inline-block;
+    position: relative;
+    left: -65px;
+    bottom: 20px;
+    animation: mymove 5s infinite;
+  }
+
+  @keyframes mymove {
+    50% {
+      text-shadow: 5px 6px #ff7315;
+    }
+  }
+
+  .Programming {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    top: -20px;
+  }
+
+  .Programming-icons {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    left: 100px;
+    top: -50px;
+  }
+
+  .img1 {
+    display: none;
+  }
+
+  .img2 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+  }
+
+  .img3 {
+    display: none;
+  }
+
+  .img1:hover, .img2:hover, .img3:hover {
+    filter: drop-shadow(3px 3px #FFD700);
+  }
+
+  .Description {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+    top: 150px;
+    right: 50px;
+  }
+
+  .ProgHeadDec {
+    font-family: 'Poiret One', cursive;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    display: inline-block;
+    position: relative;
+    font-size: .5rem;
+    left: -10px;
+    top: 40px;
+    margin: 0px;
+    font-weight: bolder;
+  }
+
+  .ProgHeadDec1 {
+    font-family: 'Poiret One', cursive;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    display: inline-block;
+    position: relative;
+    font-size: .5rem;
+    top: 40px;
+    margin: 0px;
+    font-weight: bolder;
+    right: -10px;
+  }
+
+  .ProgHead {
+    font-family: 'Noto Serif', serif;
+    font-size: 1.0rem;
+    position: relative;
+    display: inline-block;
+    top: -50px;
+    background-color: inherit;
+  }
+
+  .HeadAnimDev.in-view {
+    animation: center-animate1 2s linear 1;
+  }
+
+  @keyframes center-animate1 {
+    0% {
+      background-color: inherit;
+    }
+
+    100% {
+      background-color: #FFD700;
+    }
+  }
+
+  .Desc {
+    position: relative;
+    display: inline-block;
+    font-family: 'Roboto Slab', serif;
+    font-size: .8rem;
+    font-style: normal;
+    letter-spacing: 2px;
+    height: auto;
+    top: -70px;
+  }
+
+  .WebDevelopment {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    top: 50px;
+  }
+
+  .Web-icons {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    left: 210px;
+    top: -100px;
+  }
+
+  .wimg1 {
+    display: none;
+  }
+
+  .img2d {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom: -10px;
+    right: 105px;
+  }
+
+  .wimg3 {
+    display: none;
+  }
+
+  .wimg1:hover, .img2d:hover, .wimg3:hover {
+    filter: drop-shadow(3px 3px #FFD700);
+  }
+
+  .WDescription {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+    top: 250px;
+    right: 50px;
+  }
+
+  .WebHeadDec {
+    font-family: 'Poiret One', cursive;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    display: inline-block;
+    position: relative;
+    font-size: .5rem;
+    left: -10px;
+    top: 80px;
+    margin: 0px;
+    font-weight: bolder;
+  }
+
+  .WebHeadDec1 {
+    font-family: 'Poiret One', cursive;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    display: inline-block;
+    position: relative;
+    font-size: .5rem;
+    top: 80px;
+    margin: 0px;
+    font-weight: bolder;
+    right: -10px;
+  }
+
+  .WebHead {
+    font-family: 'Noto Serif', serif;
+    font-size: 1.0rem;
+    position: relative;
+    display: inline-block;
+    top: -50px;
+    background-color: inherit;
+  }
+
+  .HeadAnim1Dev.in-view {
+    animation: center-animate1 2s linear 1;
+  }
+
+  @keyframes center-animate1 {
+    0% {
+      background-color: inherit;
+    }
+
+    100% {
+      background-color: #FFD700;
+    }
+  }
+
+  .WDesc {
+    position: relative;
+    display: inline-block;
+    font-family: 'Roboto Slab', serif;
+    font-size: .8rem;
+    font-style: normal;
+    letter-spacing: 2px;
+    height: auto;
+    top: -70px;
+  }
+
+  .EthicalHacking {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    top: 300px;
+  }
+
+  .e-icons {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    left: 210px;
+    top: -10px;
+  }
+
+  .img1 {
+    display: none;
+  }
+
+  .img2WDev {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom: -10px;
+    right: 105px;
+  }
+
+  .img3 {
+    display: none;
+  }
+
+  .img1:hover, .img2WDev:hover, .img3:hover {
+    filter: drop-shadow(3px 3px #FFD700);
+  }
+
+  .eDescription {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+    top: 180px;
+    right: 50px;
+  }
+
+  .ETHICAL {
+    font-family: 'Poiret One', cursive;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    display: inline-block;
+    position: relative;
+    font-size: .5rem;
+    left: -10px;
+    top: 80px;
+    margin: 0px;
+    font-weight: bolder;
+  }
+
+  .ETHICAL1 {
+    font-family: 'Poiret One', cursive;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    display: inline-block;
+    position: relative;
+    font-size: .5rem;
+    top: 80px;
+    margin: 0px;
+    font-weight: bolder;
+    right: -10px;
+  }
+
+  .EHead {
+    font-family: 'Noto Serif', serif;
+    font-size: 1rem;
+    position: relative;
+    display: inline-block;
+    top: -50px;
+    background-color: inherit;
+  }
+
+  .HeadAnim2Dev.in-view {
+    animation: center-animate1 2s linear 1;
+  }
+
+  @keyframes center-animate1 {
+    0% {
+      background-color: inherit;
+    }
+
+    100% {
+      background-color: #FFD700;
+    }
+  }
+
+  .EDesc {
+    position: relative;
+    display: inline-block;
+    font-family: 'Roboto Slab', serif;
+    font-size: .8rem;
+    font-style: normal;
+    letter-spacing: 2px;
+    height: auto;
+    top: -70px;
+  }
+
+  .DesignGameDevelopment {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    top: 450px;
+  }
+
+  .d-icons {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    left: 210px;
+    top: -390px;
+  }
+
+  .img1 {
+    display: none;
+  }
+
+  .img2DDev {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom: -10px;
+    right: 105px;
+  }
+
+  .dimg3 {
+    display: none;
+  }
+
+  .img1:hover, .img2DDev:hover, .dimg3:hover {
+    filter: drop-shadow(3px 3px #FFD700);
+  }
+
+  .DDescription {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+    top: 130px;
+    right: 50px;
+  }
+
+  .DHeadDec {
+    font-family: 'Poiret One', cursive;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    display: inline-block;
+    position: relative;
+    font-size: .5rem;
+    left: -10px;
+    top: -200px;
+    margin: 0px;
+    font-weight: bolder;
+  }
+
+  .DHeadDec1 {
+    font-family: 'Poiret One', cursive;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    display: inline-block;
+    position: relative;
+    font-size: .5rem;
+    top: -200px;
+    margin: 0px;
+    font-weight: bolder;
+    right: -10px;
+  }
+
+  .DHead {
+    font-family: 'Noto Serif', serif;
+    font-size: 1rem;
+    position: relative;
+    display: inline-block;
+    top: -50px;
+    background-color: inherit;
+  }
+
+  .HeadAnim3Dev.in-view {
+    animation: center-animate1 2s linear 1;
+  }
+
+  @keyframes center-animate1 {
+    0% {
+      background-color: inherit;
+    }
+
+    100% {
+      background-color: #FFD700;
+    }
+  }
+
+  .DescD {
+    position: relative;
+    display: inline-block;
+    font-family: 'Roboto Slab', serif;
+    font-size: .8rem;
+    font-style: normal;
+    letter-spacing: 1.5px;
+    height: auto;
+    top: -50px;
+  }
+
+  /* icons animation */
+  .anim.in-view {
+    animation: iconanim;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+  }
+
+  @keyframes iconanim {
+    20% {
+      filter: drop-shadow(3px 3px #FFD700);
+    }
+  }
+
+  /* paragrah animation */
+  .pAnim.in-view {
+    animation-name: fadeInOut;
+    animation-duration: 2s;
+    animation-delay: 100ms;
+  }
+
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .S1End1 {
+    border-style: dotted;
+    border-width: medium;
+    width: 100px;
+    text-align: center;
+    border-top: none;
+    border-spacing: 20px;
+    border-color: #ff7315;
+    position: relative;
+    display: block;
+    top: 680px;
+  }
+
+  #Education {
+    text-align: center;
+    width: 100%;
+    height: 604px;
+    position: relative;
+    display: inline-block;
+    padding-top: 50px;
+    margin-top: -50px;
+    top: 650px;
+  }
+
+  .EducaHead {
+    text-align: center;
+    font-family: 'Galada', cursive;
+    font-size: 3.8rem;
+    display: inline-block;
+    position: relative;
+    left: 5px;
+    bottom: 190px;
+    animation: mymove1 5s infinite;
+  }
+
+  @keyframes mymove1 {
+    50% {
+      text-shadow: 5px 5px #ff7315;
+    }
+  }
+
+  .Tble {
+    overflow: auto;
+    top: -250px;
+    position: relative;
+    display: inline-block;
+    left: 1px;
+    width: auto;
+    height: auto;
+  }
+
+  .EduTable {
+    display: inline-block;
+    position: relative;
+    top: 1px;
+    text-align: left;
+    border-bottom: 5px;
+    border-radius: 4px;
+    border-color: #f4f4f4;
+    border-style: ridge;
+    background-color: #232020;
+    color: #f4f4f4;
+  }
+
+  thead th {
+    font-family: 'Poiret One', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #232020;
+    color: #f4f4f4;
+    padding: 5px;
+    height: 20px;
+    text-align: center;
+  }
+
+  table.EduTable td a {
+    color: #f4f4f4;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 50;
+    font-size: .8rem;
+  }
+
+  table.EduTable td a:hover {
+    color: #FFD700;
+  }
+
+  tbody td:nth-child(even) {
+    background-color: #f4f4f4;
+    color: #232020;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: .8rem;
+    font-weight: bold;
+  }
+
+  tbody td:nth-child(odd) {
+    background-color: #232020;
+    color: #f4f4f4;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+  }
+
+  td {
+    padding: 5px;
+    border-color: #f4f4f4;
+    border-top: 1px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-style: solid;
+  }
+
+  tr.in-view {
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  .S1EndT {
+    border-style: dotted;
+    border-width: medium;
+    width: 100px;
+    text-align: center;
+    border-top: none;
+    border-spacing: 20px;
+    border-color: #ff7315;
+    position: relative;
+    display: block;
+    top: 450px;
+  }
+
+  #Contact {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    padding-top: 50px;
+    margin-top: -50px;
+    top: 450px;
+  }
+
+  .ContHead {
+    width: 100%;
+    text-align: center;
+    font-family: 'Galada', cursive;
+    font-size: 3.8rem;
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    bottom: 190px;
+    animation: mymove1 5s infinite;
+
+  }
+
+  @keyframes mymove1 {
+    50% {
+      text-shadow: 5px 5px #ff7315;
+    }
+  }
+
+  .Form {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: inline-block;
+    top: 250px;
+    left: 200px;
+  }
+
+  label {
+    padding: 10px;
+    background-color: #232020;
+    color: #f4f4f4;
+    width: 400px;
+    font-family: 'Poiret One', cursive;
+    font-size: 1.5rem;
+    position: relative;
+    right: 305px;
+  }
+
+  label.m {
+    padding: 10px;
+    background-color: #232020;
+    color: #f4f4f4;
+    width: 400px;
+    font-family: 'Poiret One', cursive;
+    font-size: 1.5rem;
+    position: relative;
+    right: 235px;
+    top: 1px;
+  }
+
+  input {
+    padding: 10px;
+    margin: 20px;
+    height: 15px;
+    width: 300px;
+    position: relative;
+    right: 210px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  input:focus {
+    outline-color: #ff7315;
+    outline-width: thick;
+    box-shadow: 5px 5px #ff7315;
+  }
+
+  textarea {
+    padding: 10px;
+    margin: 20px;
+    height: 50px;
+    width: 300px;
+    position: relative;
+    right: 210px;
+    top: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+  }
+
+  textarea:focus {
+    outline-color: #ff7315;
+    outline-width: thick;
+    box-shadow: 5px 5px #ff7315;
+  }
+
+  .Submit {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    right: 200px;
+    bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Poiret One', cursive;
+    font-size: 2rem;
+    background-color: #232020;
+    color: #f4f4f4;
+    outline: 0px;
+  }
+
+  .Submit:hover {
+    background-color: #f4f4f4;
+    color: #232020;
+    box-shadow: 5px 5px #ff7315;
+    outline: 0px;
+  }
+
+  .SocialHead {
+    text-align: center;
+    font-family: 'Galada', cursive;
+    font-size: 2.8rem;
+    display: inline-block;
+    position: relative;
+    left: 30px;
+    top: 200px;
+    width: 100%
+    animation: mymove3 5s infinite;
+  }
+
+  @keyframes mymove3 {
+    50% {
+      text-shadow: 5px 5px #FFD700;
+    }
+  }
+
+  .ArrImg {
+    width: 30px;
+    height: 50px;
+    display: inline-block;
+    position: relative;
+    top: 270px;
+    animation: arrowanim 3s infinite;
+    left: -120px;
+  }
+
+  @keyframes arrowanim {
+    0% {
+      filter: drop-shadow(3px 5px #FFD700);
+    }
+
+    50% {
+      filter: drop-shadow(3px 5px #ff7315);
+    }
+
+    100% {
+      filter: drop-shadow(3px 5px #FFD700);
+    }
+  }
+
+  .SocialImg {
+    display: inline-block;
+    position: relative;
+    top: 200px;
+    background-color: inherit;
+    width: 100%;
+    height: 50px;
+    border-radius: 2px;
+    left: 10px;
+  }
+
+  .IconProp {
+    color: #232020;
+    padding: 20px;
+  }
+
+  .IconPropMAIL {
+    color: #232020;
+    position: relative;
+    display: inline-block;
+    left: -10px;
+    top: 5px;
+  }
+
+  .IconPropMAIL:hover {
+    color: #D44638;
+  }
+
+  .Mail {
+    font-family: 'Poiret One', cursive;
+    text-decoration: none;
+    color: #232020;
+    font-size: 1.2rem;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    bottom: 15px;
+  }
+
+  .highlight {
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #232020;
+    font-size: 1.5rem;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-top: 2px;
+    bottom: 20px;
+  }
+
+  .highlight:hover {
+    color: #D44638;
+  }
+
+  .fa-linkedin:hover {
+    color: #0e76a8;
+  }
+
+  .fa-instagram:hover {
+    color: #C13584;
+  }
+
+  .fa-facebook-square:hover {
+    color: #3b5998;
+  }
+
+  .fa-twitter-square:hover {
+    color: #00acee;
+  }
+
+  footer {
+    background-color: #232020;
+    width: auto;
+    height: 50px;
+    display: block;
+    position: relative;
+    top: 650px;
+  }
+
+  .Foot {
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #f4f4f4;
+    text-align: center;
+  }
+
+  @media (min-width: 348px) and (max-width: 384px) {
+    .Heading {
+      text-align: center;
+      position: relative;
+      margin-top: -10px;
+      display: inline-block;
+      padding: 20px;
+      visibility: hidden;
+    }
+
+    .quote {
+      text-align: center;
+      font-family: 'Galada', cursive;
+      font-size: 3.8rem;
+      display: inline-block;
+      position: relative;
+      left: 10px;
+      bottom: 80px;
+      animation: mymove 5s infinite;
+      width: 100%;
+    }
+
+    @keyframes mymove {
+      50% {
+        text-shadow: 5px 6px #ff7315;
+      }
+    }
+
+    #Education {
+      text-align: center;
+      width: 100%;
+      height: 604px;
+      position: relative;
+      display: inline-block;
+      padding-top: 50px;
+      margin-top: -50px;
+      top: 680px;
+    }
+
+    .EducaHead {
+      text-align: center;
+      font-family: 'Galada', cursive;
+      font-size: 3.8rem;
+      display: inline-block;
+      position: relative;
+      left: 5px;
+      bottom: 80px;
+      animation: mymove1 5s infinite;
+    }
+
+    @keyframes mymove1 {
+      50% {
+        text-shadow: 5px 5px #ff7315;
+      }
+    }
+
+    .Tble {
+      overflow: auto;
+      top: -100px;
+      position: relative;
+      display: inline-block;
+      left: 1px;
+      width: auto;
+      height: auto;
+    }
+
+    .S1EndT {
+      border-style: dotted;
+      border-width: medium;
+      width: 100px;
+      text-align: center;
+      border-top: none;
+      border-spacing: 20px;
+      border-color: #ff7315;
+      position: relative;
+      display: block;
+      top: 650px;
+    }
+
+    #Contact {
+      text-align: center;
+      width: 100%;
+      height: 100%;
+      position: relative;
+      display: inline-block;
+      padding-top: 50px;
+      margin-top: -50px;
+      top: 650px;
+    }
+
+    .ContHead {
+      text-align: center;
+      font-family: 'Galada', cursive;
+      font-size: 3.8rem;
+      display: inline-block;
+      position: relative;
+      left: 5px;
+      bottom: 80px;
+      animation: mymove1 5s infinite;
+      width: 100%;
+    }
+
+    .Form {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      display: inline-block;
+      top: 250px;
+      left: 200px;
+    }
+
+    label {
+      padding: 10px;
+      background-color: #232020;
+      color: #f4f4f4;
+      width: 400px;
+      font-family: 'Poiret One', cursive;
+      font-size: 1.5rem;
+      position: relative;
+      right: 305px;
+    }
+
+    label.m {
+      padding: 10px;
+      background-color: #232020;
+      color: #f4f4f4;
+      width: 400px;
+      font-family: 'Poiret One', cursive;
+      font-size: 1.5rem;
+      position: relative;
+      right: 235px;
+      top: 1px;
+    }
+
+    input {
+      padding: 10px;
+      margin: 20px;
+      height: 15px;
+      width: 300px;
+      position: relative;
+      right: 210px;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    input:focus {
+      outline-color: #ff7315;
+      outline-width: thick;
+      box-shadow: 5px 5px #ff7315;
+    }
+
+    textarea {
+      padding: 10px;
+      margin: 20px;
+      height: 50px;
+      width: 300px;
+      position: relative;
+      right: 210px;
+      top: 1px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1rem;
+    }
+
+    textarea:focus {
+      outline-color: #ff7315;
+      outline-width: thick;
+      box-shadow: 5px 5px #ff7315;
+    }
+
+    .Submit {
+      position: relative;
+      display: inline-block;
+      width: 100px;
+      height: 50px;
+      right: 200px;
+      bottom: 10px;
+      border-radius: 5px;
+      border: none;
+      font-family: 'Poiret One', cursive;
+      font-size: 2rem;
+      background-color: #232020;
+      color: #f4f4f4;
+      outline: 0px;
+    }
+
+    .Submit:hover {
+      background-color: #f4f4f4;
+      color: #232020;
+      box-shadow: 5px 5px #ff7315;
+      outline: 0px;
+    }
+
+    .SocialHead {
+      text-align: center;
+      font-family: 'Galada', cursive;
+      font-size: 2.8rem;
+      display: inline-block;
+      position: relative;
+      left: 30px;
+      top: 300px;
+      animation: mymove3 5s infinite;
+    }
+
+    @keyframes mymove3 {
+      50% {
+        text-shadow: 5px 5px #FFD700;
+      }
+    }
+
+    .ArrImg {
+      width: 30px;
+      height: 50px;
+      display: inline-block;
+      position: relative;
+      top: 370px;
+      animation: arrowanim 3s infinite;
+      left: -120px;
+    }
+
+    @keyframes arrowanim {
+      0% {
+        filter: drop-shadow(3px 5px #FFD700);
+      }
+
+      50% {
+        filter: drop-shadow(3px 5px #ff7315);
+      }
+
+      100% {
+        filter: drop-shadow(3px 5px #FFD700);
+      }
+    }
+
+    .SocialImg {
+      display: inline-block;
+      position: relative;
+      top: 300px;
+      background-color: inherit;
+      width: 100%;
+      height: 50px;
+      border-radius: 2px;
+      left: 10px;
+    }
+
+    .IconProp {
+      color: #232020;
+      padding: 20px;
+    }
+
+    .IconPropMAIL {
+      color: #232020;
+      position: relative;
+      display: inline-block;
+      left: -10px;
+      top: 5px;
+    }
+
+    .IconPropMAIL:hover {
+      color: #D44638;
+    }
+
+    .Mail {
+      font-family: 'Poiret One', cursive;
+      text-decoration: none;
+      color: #232020;
+      font-size: 1.2rem;
+      font-weight: bold;
+      position: relative;
+      display: inline-block;
+      bottom: 15px;
+    }
+
+    .highlight {
+      padding: 10px;
+      font-family: 'Montserrat', sans-serif;
+      color: #232020;
+      font-size: 1.5rem;
+      position: relative;
+      display: inline-block;
+      text-decoration: none;
+      letter-spacing: 1px;
+      margin-top: 2px;
+      bottom: 20px;
+    }
+
+    .highlight:hover {
+      color: #D44638;
+    }
+
+    .fa-linkedin:hover {
+      color: #0e76a8;
+    }
+
+    .fa-instagram:hover {
+      color: #C13584;
+    }
+
+    .fa-facebook-square:hover {
+      color: #3b5998;
+    }
+
+    .fa-twitter-square:hover {
+      color: #00acee;
+    }
+
+    footer {
+      background-color: #232020;
+      width: auto;
+      height: 50px;
+      display: block;
+      position: relative;
+      top: 950px;
+    }
+
+    .Foot {
+      padding: 15px;
+      font-family: 'Montserrat', sans-serif;
+      color: #f4f4f4;
+      text-align: center;
+    }
+  }
+}
+
+@media (min-width:577px) and (max-width:768px) {
+  body.sec {
+    background-color: #f4f4f;
+    height: 100%;
+    background-image: url("https://www.transparenttextures.com/patterns/subtle-dots.png");
+    color: #232020;
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  html {
+    display: block;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+
+  .nav {
+    width: 100%;
+    height: 100px;
+    background-color: #232020;
+    position: fixed;
+    z-index: 1;
+    display: block;
+  }
+
+  .name {
+    width: 100% color: #f4f4f4;
+    margin: 0px;
+    padding: 30px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    left: 50px;
+    font-family: 'Galada', cursive;
+    font-weight: lighter;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+    top: 5px;
+  }
+
+  #wordChanger {
+    color: #f4f4f4;
+    font-family: 'Galada', cursive;
+    font-weight: lighter;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+  }
+
+  #wordChanger:hover {
+    color: #FFD700;
+  }
+
+  #wordChanger:before {
+    content: 'Kiran B L';
+    animation: changeText 10s ease reverse forwards infinite
+  }
+
+  @keyframes changeText {
+    100% {
+      content: 'Kiran B L';
+      opacity: 0;
+    }
+
+    95% {
+      content: 'Kiran B L';
+      opacity: 1;
+    }
+
+    80% {
+      content: 'Kiran B L';
+      opacity: 1;
+    }
+
+    76% {
+      content: 'Kiran B L';
+      opacity: 0;
+    }
+
+    75% {
+      content: 'Download';
+      opacity: 0;
+    }
+
+    70% {
+      content: 'Download';
+      opacity: 1;
+    }
+
+    55% {
+      content: 'Download';
+      opacity: 1;
+    }
+
+    51% {
+      content: 'Download';
+      opacity: 0;
+    }
+
+    50% {
+      content: 'Resume';
+      opacity: 0;
+    }
+
+    45% {
+      content: 'Resume';
+      opacity: 1;
+    }
+
+    30% {
+      content: 'Resume';
+      opacity: 1;
+    }
+
+    26% {
+      content: 'Resume';
+      opacity: 0;
+    }
+
+    25% {
+      content: 'Kiran B L';
+      opacity: 0;
+    }
+
+    20% {
+      content: 'Kiran B L';
+      opacity: 1;
+    }
+
+    5% {
+      content: 'Kiran B L';
+      opacity: 1;
+    }
+
+    0% {
+      content: 'Kiran B L';
+      opacity: 0;
+    }
+  }
+
+  .but {
+    background-color: inherit;
+    padding: 0px;
+    width: 16px;
+    height: 20px;
+    border: 0px;
+    position: relative;
+    left: 25px;
+    top: 10px;
+    border-radius: 5px;
+    outline: 0px;
+  }
+
+  .button-img {
+    color: #f4f4f4;
+  }
+
+  .button-img:hover {
+    color: #ff7315;
+  }
+
+  .nav-menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 100px;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+    opacity: 0.8;
+  }
+
+  a.navA {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #f4f4f4;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Poiret One', cursive;
+  }
+
+  a.navA:hover {
+    color: #ff7315;
+  }
+
+  .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  .Heading {
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+    display: inline-block;
+    padding: 20px;
+    visibility: hidden;
+  }
+
+  #About {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+  }
+
+  .HeadingAbout {
+    font-family: 'Galada', cursive;
+    font-size: 3rem;
+    left: 100px;
+    position: relative;
+    display: inline-block;
+    font-weight: lighter;
+    top: 130px;
+    margin: 0px;
+    width: 100%;
+    letter-spacing: 5px;
+    text-align: center;
+    animation: tada 2s 1 ease;
+  }
+
+  .H {
+    font-family: 'Galada', cursive;
+    font-size: 6rem;
+    font-weight: lighter;
+    top: 1px;
+    left: 5px;
+    position: relative;
+    display: inline-block;
+    animation: tada 2s 1 ease;
+  }
+
+  @keyframes tada {
+    from {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+
+    10%,
+    20% {
+      -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+      transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+    }
+
+    30%,
+    50%,
+    70%,
+    90% {
+      -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+      transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    }
+
+    40%,
+    60%,
+    80% {
+      -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+      transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    }
+
+    to {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  }
+
+  .Greeting {
+    display: none;
+  }
+
+  .DivPic {
+    max-width: 100%;
+    position: relative;
+    display: inline-block;
+    top: -50px;
+    left: 100px;
+    margin-right: 30px;
+  }
+
+  .ProPic {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+  }
+
+  @media (min-width:578px) and (max-width:665px) {
+    .DivPic {
+      max-width: 100%;
+      position: relative;
+      display: inline-block;
+      top: -50px;
+      left: 50px;
+      margin-right: 30px;
+    }
+
+    .ProPic {
+      width: 300px;
+      height: 200px;
+      position: relative;
+      display: inline-block;
+    }
+  }
+
+  .bio {
+    font-family: 'Poiret One', cursive;
+    font-size: 1.8rem;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    top: -50px;
+    width: 100%;
+    height: 100%;
+    font-weight: 50;
+    padding: 0px 10px 0px 5px;
+  }
+
+  .IMP {
+    font-family: 'Poiret One', cursive;
+    font-size: 2.3rem;
+    font-weight: bold;
+  }
+
+  .IMP1 {
+    color: #232020;
+    font-family: 'Poiret One', cursive;
+    font-size: 2.3rem;
+    border-radius: 10%;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .IMP1:hover {
+    color: #ff7315;
+  }
+
+  .S1End {
+    border-style: dotted;
+    border-width: medium;
+    width: 100px;
+    text-align: center;
+    border-top: none;
+    border-spacing: 20px;
+    border-color: #ff7315;
+    position: relative;
+    display: block;
+    top: 50px;
+  }
+
+  #MySkills {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    padding-top: 50px;
+    margin-top: -50px;
+    top: 50px;
+  }
+
+  .quote {
+    text-align: center;
+    font-family: 'Galada', cursive;
+    font-size: 3.8rem;
+    display: inline-block;
+    position: relative;
+    left: -65px;
+    bottom: 20px;
+    animation: mymove 5s infinite;
+  }
+
+  @keyframes mymove {
+    50% {
+      text-shadow: 5px 6px #ff7315;
+    }
+  }
+
+  .Programming {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    top: -20px;
+  }
+
+  .Programming-icons {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    left: 100px;
+    top: -50px;
+  }
+
+  .img1 {
+    display: none;
+  }
+
+  .img2 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+  }
+
+  .img3 {
+    display: none;
+  }
+
+  .img1:hover, .img2:hover, .img3:hover {
+    filter: drop-shadow(3px 3px #FFD700);
+  }
+
+  .Description {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+    top: 150px;
+    right: 50px;
+  }
+
+  .ProgHeadDec {
+    font-family: 'Poiret One', cursive;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    display: inline-block;
+    position: relative;
+    font-size: .5rem;
+    left: -10px;
+    top: 40px;
+    margin: 0px;
+    font-weight: bolder;
+  }
+
+  .ProgHeadDec1 {
+    font-family: 'Poiret One', cursive;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    display: inline-block;
+    position: relative;
+    font-size: .5rem;
+    top: 40px;
+    margin: 0px;
+    font-weight: bolder;
+    right: -10px;
+  }
+
+  .ProgHead {
+    font-family: 'Noto Serif', serif;
+    font-size: 1.0rem;
+    position: relative;
+    display: inline-block;
+    top: -50px;
+    background-color: inherit;
+  }
+
+  .HeadAnimDev.in-view {
+    animation: center-animate2 2s linear 1;
+  }
+
+  @keyframes center-animate2 {
+    0% {
+      background-color: inherit;
+    }
+
+    100% {
+      background-color: #FFD700;
+    }
+  }
+
+  .Desc {
+    position: relative;
+    display: inline-block;
+    font-family: 'Roboto Slab', serif;
+    font-size: .8rem;
+    font-style: normal;
+    letter-spacing: 2px;
+    height: auto;
+    top: -70px;
+  }
+
+  .WebDevelopment {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    top: 50px;
+  }
+
+  .Web-icons {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    left: 210px;
+    top: -100px;
+  }
+
+  .wimg1 {
+    display: none;
+  }
+
+  .img2d {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom: -10px;
+    right: 105px;
+  }
+
+  .wimg3 {
+    display: none;
+  }
+
+  .wimg1:hover, .img2d:hover, .wimg3:hover {
+    filter: drop-shadow(3px 3px #FFD700);
+  }
+
+  .WDescription {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+    top: 250px;
+    right: 50px;
+  }
+
+  .WebHeadDec {
+    font-family: 'Poiret One', cursive;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    display: inline-block;
+    position: relative;
+    font-size: .5rem;
+    left: -10px;
+    top: 80px;
+    margin: 0px;
+    font-weight: bolder;
+  }
+
+  .WebHeadDec1 {
+    font-family: 'Poiret One', cursive;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    display: inline-block;
+    position: relative;
+    font-size: .5rem;
+    top: 80px;
+    margin: 0px;
+    font-weight: bolder;
+    right: -10px;
+  }
+
+  .WebHead {
+    font-family: 'Noto Serif', serif;
+    font-size: 1.0rem;
+    position: relative;
+    display: inline-block;
+    top: -50px;
+    background-color: inherit;
+  }
+
+  .HeadAnim1Dev.in-view {
+    animation: center-animate2 2s linear 1;
+  }
+
+  @keyframes center-animate2 {
+    0% {
+      background-color: inherit;
+    }
+
+    100% {
+      background-color: #FFD700;
+    }
+  }
+
+  .WDesc {
+    position: relative;
+    display: inline-block;
+    font-family: 'Roboto Slab', serif;
+    font-size: .8rem;
+    font-style: normal;
+    letter-spacing: 2px;
+    height: auto;
+    top: -70px;
+  }
+
+  .EthicalHacking {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    top: 300px;
+  }
+
+  .e-icons {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    left: 210px;
+    top: -10px;
+  }
+
+  .img1 {
+    display: none;
+  }
+
+  .img2WDev {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom: -10px;
+    right: 105px;
+  }
+
+  .img3 {
+    display: none;
+  }
+
+  .img1:hover, .img2WDev:hover, .img3:hover {
+    filter: drop-shadow(3px 3px #FFD700);
+  }
+
+  .eDescription {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+    top: 180px;
+    right: 50px;
+  }
+
+  .ETHICAL {
+    font-family: 'Poiret One', cursive;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    display: inline-block;
+    position: relative;
+    font-size: .5rem;
+    left: -10px;
+    top: 80px;
+    margin: 0px;
+    font-weight: bolder;
+  }
+
+  .ETHICAL1 {
+    font-family: 'Poiret One', cursive;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    display: inline-block;
+    position: relative;
+    font-size: .5rem;
+    top: 80px;
+    margin: 0px;
+    font-weight: bolder;
+    right: -10px;
+  }
+
+  .EHead {
+    font-family: 'Noto Serif', serif;
+    font-size: 1rem;
+    position: relative;
+    display: inline-block;
+    top: -50px;
+    background-color: inherit;
+  }
+
+  .HeadAnim2Dev.in-view {
+    animation: center-animate2 2s linear 1;
+  }
+
+  @keyframes center-animate2 {
+    0% {
+      background-color: inherit;
+    }
+
+    100% {
+      background-color: #FFD700;
+    }
+  }
+
+  .EDesc {
+    position: relative;
+    display: inline-block;
+    font-family: 'Roboto Slab', serif;
+    font-size: .8rem;
+    font-style: normal;
+    letter-spacing: 2px;
+    height: auto;
+    top: -70px;
+  }
+
+  .DesignGameDevelopment {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    top: 450px;
+  }
+
+  .d-icons {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    left: 210px;
+    top: -410px;
+  }
+
+  .img1 {
+    display: none;
+  }
+
+  .img2DDev {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom: -10px;
+    right: 105px;
+  }
+
+  .dimg3 {
+    display: none;
+  }
+
+  .img1:hover, .img2DDev:hover, .dimg3:hover {
+    filter: drop-shadow(3px 3px #FFD700);
+  }
+
+  .DDescription {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+    top: 130px;
+    right: 50px;
+  }
+
+  .DHeadDec {
+    font-family: 'Poiret One', cursive;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    display: inline-block;
+    position: relative;
+    font-size: .5rem;
+    left: -10px;
+    top: -200px;
+    margin: 0px;
+    font-weight: bolder;
+  }
+
+  .DHeadDec1 {
+    font-family: 'Poiret One', cursive;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    display: inline-block;
+    position: relative;
+    font-size: .5rem;
+    top: -200px;
+    margin: 0px;
+    font-weight: bolder;
+    right: -10px;
+  }
+
+  .DHead {
+    font-family: 'Noto Serif', serif;
+    font-size: 1rem;
+    position: relative;
+    display: inline-block;
+    top: -40px;
+    background-color: inherit;
+  }
+
+  .HeadAnim3Dev.in-view {
+    animation: center-animate2 2s linear 1;
+  }
+
+  @keyframes center-animate2 {
+    0% {
+      background-color: inherit;
+    }
+
+    100% {
+      background-color: #FFD700;
+    }
+  }
+
+  .DescD {
+    position: relative;
+    display: inline-block;
+    font-family: 'Roboto Slab', serif;
+    font-size: .8rem;
+    font-style: normal;
+    letter-spacing: 1.5px;
+    height: auto;
+    top: -50px;
+  }
+
+  /* icons animation */
+  .anim.in-view {
+    animation: iconanim;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+  }
+
+  @keyframes iconanim {
+    20% {
+      filter: drop-shadow(3px 3px #FFD700);
+    }
+  }
+
+  /* paragrah animation */
+  .pAnim.in-view {
+    animation-name: fadeInOut;
+    animation-duration: 2s;
+    animation-delay: 100ms;
+  }
+
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .S1End1 {
+    border-style: dotted;
+    border-width: medium;
+    width: 100px;
+    text-align: center;
+    border-top: none;
+    border-spacing: 20px;
+    border-color: #ff7315;
+    position: relative;
+    display: block;
+    top: 680px;
+  }
+
+  #Education {
+    text-align: center;
+    width: 100%;
+    height: 604px;
+    position: relative;
+    display: inline-block;
+    padding-top: 50px;
+    margin-top: -50px;
+    top: 650px;
+  }
+
+  .EducaHead {
+    text-align: center;
+    font-family: 'Galada', cursive;
+    font-size: 3.8rem;
+    display: inline-block;
+    position: relative;
+    left: 5px;
+    bottom: 190px;
+    animation: mymove1 5s infinite;
+  }
+
+  @keyframes mymove1 {
+    50% {
+      text-shadow: 5px 5px #ff7315;
+    }
+  }
+
+  .Tble {
+    overflow: auto;
+    top: -250px;
+    position: relative;
+    display: inline-block;
+    left: 1px;
+    width: auto;
+    height: auto;
+  }
+
+  .EduTable {
+    display: inline-block;
+    position: relative;
+    top: 1px;
+    text-align: left;
+    border-bottom: 5px;
+    border-radius: 4px;
+    border-color: #f4f4f4;
+    border-style: ridge;
+    background-color: #232020;
+    color: #f4f4f4;
+  }
+
+  thead th {
+    font-family: 'Poiret One', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #232020;
+    color: #f4f4f4;
+    padding: 5px;
+    height: 20px;
+    text-align: center;
+  }
+
+  table.EduTable td a {
+    color: #f4f4f4;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 50;
+    font-size: .8rem;
+  }
+
+  table.EduTable td a:hover {
+    color: #FFD700;
+  }
+
+  tbody td:nth-child(even) {
+    background-color: #f4f4f4;
+    color: #232020;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: .8rem;
+    font-weight: bold;
+  }
+
+  tbody td:nth-child(odd) {
+    background-color: #232020;
+    color: #f4f4f4;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+  }
+
+  td {
+    padding: 5px;
+    border-color: #f4f4f4;
+    border-top: 1px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-style: solid;
+  }
+
+  tr.in-view {
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  .S1EndT {
+    border-style: dotted;
+    border-width: medium;
+    width: 100px;
+    text-align: center;
+    border-top: none;
+    border-spacing: 20px;
+    border-color: #ff7315;
+    position: relative;
+    display: block;
+    top: 450px;
+  }
+
+  #Contact {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    padding-top: 50px;
+    margin-top: -50px;
+    top: 450px;
+  }
+
+  .ContHead {
+    text-align: center;
+    font-family: 'Galada', cursive;
+    font-size: 3.8rem;
+    display: inline-block;
+    position: relative;
+    left: -45px;
+    bottom: 10px;
+    animation: mymove1 5s infinite;
+  }
+
+  @keyframes mymove1 {
+    50% {
+      text-shadow: 5px 5px #ff7315;
+    }
+  }
+
+  .Form {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: inline-block;
+    top: 250px;
+    left: 200px;
+  }
+
+  label {
+    padding: 10px;
+    background-color: #232020;
+    color: #f4f4f4;
+    width: 400px;
+    font-family: 'Poiret One', cursive;
+    font-size: 1.5rem;
+    position: relative;
+    right: 305px;
+  }
+
+  label.m {
+    padding: 10px;
+    background-color: #232020;
+    color: #f4f4f4;
+    width: 400px;
+    font-family: 'Poiret One', cursive;
+    font-size: 1.5rem;
+    position: relative;
+    right: 235px;
+    top: 1px;
+  }
+
+  input {
+    padding: 10px;
+    margin: 20px;
+    height: 15px;
+    width: 300px;
+    position: relative;
+    right: 210px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  input:focus {
+    outline-color: #ff7315;
+    outline-width: thick;
+    box-shadow: 5px 5px #ff7315;
+  }
+
+  textarea {
+    padding: 10px;
+    margin: 20px;
+    height: 50px;
+    width: 300px;
+    position: relative;
+    right: 210px;
+    top: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+  }
+
+  textarea:focus {
+    outline-color: #ff7315;
+    outline-width: thick;
+    box-shadow: 5px 5px #ff7315;
+  }
+
+  .Submit {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    right: 200px;
+    bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Poiret One', cursive;
+    font-size: 2rem;
+    background-color: #232020;
+    color: #f4f4f4;
+    outline: 0px;
+  }
+
+  .Submit:hover {
+    background-color: #f4f4f4;
+    color: #232020;
+    box-shadow: 5px 5px #ff7315;
+    outline: 0px;
+  }
+
+  .SocialHead {
+    text-align: center;
+    font-family: 'Galada', cursive;
+    font-size: 2.8rem;
+    display: inline-block;
+    position: relative;
+    left: 30px;
+    top: 400px;
+    animation: mymove3 5s infinite;
+  }
+
+  @keyframes mymove3 {
+    50% {
+      text-shadow: 5px 5px #FFD700;
+    }
+  }
+
+  .ArrImg {
+    width: 30px;
+    height: 50px;
+    display: inline-block;
+    position: relative;
+    top: 470px;
+    animation: arrowanim 3s infinite;
+    left: -120px;
+  }
+
+  @keyframes arrowanim {
+    0% {
+      filter: drop-shadow(3px 5px #FFD700);
+    }
+
+    50% {
+      filter: drop-shadow(3px 5px #ff7315);
+    }
+
+    100% {
+      filter: drop-shadow(3px 5px #FFD700);
+    }
+  }
+
+  .SocialImg {
+    display: inline-block;
+    position: relative;
+    top: 400px;
+    background-color: inherit;
+    width: 100%;
+    height: 50px;
+    border-radius: 2px;
+    left: 10px;
+  }
+
+  .IconProp {
+    color: #232020;
+    padding: 20px;
+  }
+
+  .IconPropMAIL {
+    color: #232020;
+    position: relative;
+    display: inline-block;
+    left: -10px;
+    top: 5px;
+  }
+
+  .IconPropMAIL:hover {
+    color: #D44638;
+  }
+
+  .Mail {
+    font-family: 'Poiret One', cursive;
+    text-decoration: none;
+    color: #232020;
+    font-size: 1.2rem;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    bottom: 15px;
+  }
+
+  .highlight {
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #232020;
+    font-size: 1.5rem;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-top: 2px;
+    bottom: 20px;
+  }
+
+  .highlight:hover {
+    color: #D44638;
+  }
+
+  .fa-linkedin:hover {
+    color: #0e76a8;
+  }
+
+  .fa-instagram:hover {
+    color: #C13584;
+  }
+
+  .fa-facebook-square:hover {
+    color: #3b5998;
+  }
+
+  .fa-twitter-square:hover {
+    color: #00acee;
+  }
+
+  footer {
+    background-color: #232020;
+    width: auto;
+    height: 50px;
+    display: block;
+    position: relative;
+    top: 850px;
+  }
+
+  .Foot {
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #f4f4f4;
+    text-align: center;
+  }
+}
+
+@media (min-width:768px) and (max-width:1199px) {
+  body.sec {
+    background-color: #f4f4f;
+    height: 100%;
+    background-image: url("https://www.transparenttextures.com/patterns/subtle-dots.png");
+    color: #232020;
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  html {
+    display: block;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+
+  .nav {
+    width: 100%;
+    height: 100px;
+    background-color: #232020;
+    position: fixed;
+    z-index: 1;
+    display: block;
+  }
+
+  .name {
+    width: 100% color: #f4f4f4;
+    margin: 0px;
+    padding: 30px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    left: 50px;
+    font-family: 'Galada', cursive;
+    font-weight: lighter;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+    top: 5px;
+  }
+
+  #wordChanger {
+    color: #f4f4f4;
+    font-family: 'Galada', cursive;
+    font-weight: lighter;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+  }
+
+  #wordChanger:hover {
+    color: #FFD700;
+  }
+
+  #wordChanger:before {
+    content: 'Kiran B L';
+    animation: changeText 10s ease reverse forwards infinite
+  }
+
+  @keyframes changeText {
+    100% {
+      content: 'Kiran B L';
+      opacity: 0;
+    }
+
+    95% {
+      content: 'Kiran B L';
+      opacity: 1;
+    }
+
+    80% {
+      content: 'Kiran B L';
+      opacity: 1;
+    }
+
+    76% {
+      content: 'Kiran B L';
+      opacity: 0;
+    }
+
+    75% {
+      content: 'Download';
+      opacity: 0;
+    }
+
+    70% {
+      content: 'Download';
+      opacity: 1;
+    }
+
+    55% {
+      content: 'Download';
+      opacity: 1;
+    }
+
+    51% {
+      content: 'Download';
+      opacity: 0;
+    }
+
+    50% {
+      content: 'Resume';
+      opacity: 0;
+    }
+
+    45% {
+      content: 'Resume';
+      opacity: 1;
+    }
+
+    30% {
+      content: 'Resume';
+      opacity: 1;
+    }
+
+    26% {
+      content: 'Resume';
+      opacity: 0;
+    }
+
+    25% {
+      content: 'Kiran B L';
+      opacity: 0;
+    }
+
+    20% {
+      content: 'Kiran B L';
+      opacity: 1;
+    }
+
+    5% {
+      content: 'Kiran B L';
+      opacity: 1;
+    }
+
+    0% {
+      content: 'Kiran B L';
+      opacity: 0;
+    }
+  }
+
+  .but {
+    background-color: inherit;
+    padding: 0px;
+    width: 16px;
+    height: 20px;
+    border: 0px;
+    position: relative;
+    left: 25px;
+    top: 10px;
+    border-radius: 5px;
+    outline: 0px;
+  }
+
+  .button-img {
+    color: #f4f4f4;
+  }
+
+  .button-img:hover {
+    color: #ff7315;
+  }
+
+  .nav-menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 100px;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+    opacity: 0.8;
+  }
+
+  a.navA {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #f4f4f4;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Poiret One', cursive;
+  }
+
+  a.navA:hover {
+    color: #ff7315;
+  }
+
+  .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  .Heading {
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+    display: inline-block;
+    padding: 20px;
+    visibility: hidden;
+  }
+
+  #About {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+  }
+
+  .HeadingAbout {
+    font-family: 'Galada', cursive;
+    font-size: 4rem;
+    left: 100px;
+    position: relative;
+    display: inline-block;
+    font-weight: lighter;
+    top: 130px;
+    margin: 0px;
+    width: 100%;
+    letter-spacing: 5px;
+    text-align: center;
+    animation: tada 2s 1 ease;
+  }
+
+  .H {
+    font-family: 'Galada', cursive;
+    font-size: 6rem;
+    font-weight: lighter;
+    top: 1px;
+    left: 5px;
+    position: relative;
+    display: inline-block;
+    animation: tada 2s 1 ease;
+  }
+
+  @keyframes tada {
+    from {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+
+    10%,
+    20% {
+      -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+      transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+    }
+
+    30%,
+    50%,
+    70%,
+    90% {
+      -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+      transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    }
+
+    40%,
+    60%,
+    80% {
+      -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+      transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    }
+
+    to {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  }
+
+  .Greeting {
+    display: none;
+  }
+
+  .DivPic {
+    max-width: 100%;
+    position: relative;
+    display: inline-block;
+    top: -50px;
+    left: 100px;
+    margin-right: 30px;
+  }
+
+  .ProPic {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+  }
+
+  @media (min-width:840px) {
+    .DivPic {
+      max-width: 100%;
+      position: relative;
+      display: inline-block;
+      top: -50px;
+      left: 150px;
+      margin-right: 30px;
+    }
+
+    .ProPic {
+      width: 300px;
+      height: 200px;
+      position: relative;
+      display: inline-block;
+    }
+  }
+
+  @media (min-width:920px) {
+    .DivPic {
+      max-width: 100%;
+      position: relative;
+      display: inline-block;
+      top: -50px;
+      left: 200px;
+      margin-right: 30px;
+    }
+
+    .ProPic {
+      width: 300px;
+      height: 200px;
+      position: relative;
+      display: inline-block;
+    }
+  }
+
+  @media (min-width:1020px) {
+    .DivPic {
+      max-width: 100%;
+      position: relative;
+      display: inline-block;
+      top: -50px;
+      left: 250px;
+      margin-right: 30px;
+    }
+
+    .ProPic {
+      width: 300px;
+      height: 200px;
+      position: relative;
+      display: inline-block;
+    }
+  }
+
+  @media (min-width:1120px) {
+    .DivPic {
+      max-width: 100%;
+      position: relative;
+      display: inline-block;
+      top: -50px;
+      left: 300px;
+      margin-right: 30px;
+    }
+
+    .ProPic {
+      width: 300px;
+      height: 200px;
+      position: relative;
+      display: inline-block;
+    }
+  }
+
+  .bio {
+    font-family: 'Poiret One', cursive;
+    font-size: 1.8rem;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    top: -50px;
+    width: 100%;
+    height: 100%;
+    font-weight: 50;
+    padding: 0px 10px 0px 5px;
+  }
+
+  .IMP {
+    font-family: 'Poiret One', cursive;
+    font-size: 2.3rem;
+    font-weight: bold;
+  }
+
+  .IMP1 {
+    color: #232020;
+    font-family: 'Poiret One', cursive;
+    font-size: 2.3rem;
+    border-radius: 10%;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .IMP1:hover {
+    color: #ff7315;
+  }
+
+  .S1End {
+    border-style: dotted;
+    border-width: medium;
+    width: 100px;
+    text-align: center;
+    border-top: none;
+    border-spacing: 20px;
+    border-color: #ff7315;
+    position: relative;
+    display: block;
+    top: 50px;
+  }
+
+  #MySkills {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    padding-top: 50px;
+    margin-top: -50px;
+    top: 50px;
+  }
+
+  .quote {
+    text-align: center;
+    font-family: 'Galada', cursive;
+    font-size: 4.5rem;
+    display: inline-block;
+    position: relative;
+    left: -65px;
+    bottom: 20px;
+    animation: mymove 5s infinite;
+  }
+
+  @keyframes mymove {
+    50% {
+      text-shadow: 5px 6px #ff7315;
+    }
+  }
+
+  .Programming {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    top: -20px;
+  }
+
+  .Programming-icons {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    left: 200px;
+    top: -150px;
+  }
+
+  .img1 {
+    display: none;
+  }
+
+  .img2 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+  }
+
+  .img3 {
+    display: none;
+  }
+
+  .img1:hover, .img2:hover, .img3:hover {
+    filter: drop-shadow(3px 3px #FFD700);
+  }
+
+  .Description {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    display: inline-block;
+    top: 150px;
+    right: 50px;
+  }
+
+  .ProgHeadDec {
+    font-family: 'Poiret One', cursive;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    display: inline-block;
+    position: relative;
+    font-size: 1rem;
+    left: -100px;
+    top: 40px;
+    margin: 0px;
+    font-weight: bolder;
+  }
+
+  .ProgHeadDec1 {
+    font-family: 'Poiret One', cursive;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    display: inline-block;
+    position: relative;
+    font-size: 1rem;
+    top: 40px;
+    margin: 0px;
+    font-weight: bolder;
+    right: -100px;
+  }
+
+  .ProgHead {
+    font-family: 'Noto Serif', serif;
+    font-size: 1.8rem;
+    position: relative;
+    display: inline-block;
+    top: -30px;
+    background-color: inherit;
+  }
+
+  .HeadAnimDev.in-view {
+    animation: center-animate3 2s linear 1;
+  }
+
+  @keyframes center-animate3 {
+    0% {
+      background-color: inherit;
+    }
+
+    100% {
+      background-color: #FFD700;
+    }
+  }
+
+  .Desc {
+    position: relative;
+    display: inline-block;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    letter-spacing: 2px;
+    height: auto;
+    top: -70px;
+  }
+
+  .WebDevelopment {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    top: 50px;
+  }
+
+  .Web-icons {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    left: 320px;
+    top: -200px;
+  }
+
+  .wimg1 {
+    display: none;
+  }
+
+  .img2d {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: -10px;
+    right: 105px;
+  }
+
+  .wimg3 {
+    display: none;
+  }
+
+  .wimg1:hover, .img2d:hover, .wimg3:hover {
+    filter: drop-shadow(3px 3px #FFD700);
+  }
+
+  .WDescription {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    display: inline-block;
+    top: 250px;
+    right: 50px;
+  }
+
+  .WebHeadDec {
+    font-family: 'Poiret One', cursive;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    display: inline-block;
+    position: relative;
+    font-size: 1rem;
+    left: -100px;
+    top: 80px;
+    margin: 0px;
+    font-weight: bolder;
+  }
+
+  .WebHeadDec1 {
+    font-family: 'Poiret One', cursive;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    display: inline-block;
+    position: relative;
+    font-size: 1rem;
+    top: 80px;
+    margin: 0px;
+    font-weight: bolder;
+    right: -100px;
+  }
+
+  .WebHead {
+    font-family: 'Noto Serif', serif;
+    font-size: 1.8rem;
+    position: relative;
+    display: inline-block;
+    top: -30px;
+    background-color: inherit;
+  }
+
+  .HeadAnim1Dev.in-view {
+    animation: center-animate3 2s linear 1;
+  }
+
+  @keyframes center-animate3 {
+    0% {
+      background-color: inherit;
+    }
+
+    100% {
+      background-color: #FFD700;
+    }
+  }
+
+  .WDesc {
+    position: relative;
+    display: inline-block;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    letter-spacing: 2px;
+    height: auto;
+    top: -70px;
+  }
+
+  .EthicalHacking {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    top: 300px;
+  }
+
+  .e-icons {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    left: 300px;
+    top: -100px;
+  }
+
+  .img1 {
+    display: none;
+  }
+
+  .img2WDev {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: -10px;
+    right: 105px;
+  }
+
+  .img3 {
+    display: none;
+  }
+
+  .img1:hover, .img2WDev:hover, .img3:hover {
+    filter: drop-shadow(3px 3px #FFD700);
+  }
+
+  .eDescription {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    display: inline-block;
+    top: 180px;
+    right: 50px;
+  }
+
+  .ETHICAL {
+    font-family: 'Poiret One', cursive;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    display: inline-block;
+    position: relative;
+    font-size: 1rem;
+    left: -100px;
+    top: 80px;
+    margin: 0px;
+    font-weight: bolder;
+  }
+
+  .ETHICAL1 {
+    font-family: 'Poiret One', cursive;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    display: inline-block;
+    position: relative;
+    font-size: 1rem;
+    top: 80px;
+    margin: 0px;
+    font-weight: bolder;
+    right: -100px;
+  }
+
+  .EHead {
+    font-family: 'Noto Serif', serif;
+    font-size: 1.8rem;
+    position: relative;
+    display: inline-block;
+    top: -30px;
+    background-color: inherit;
+  }
+
+  .HeadAnim2Dev.in-view {
+    animation: center-animate3 2s linear 1;
+  }
+
+  @keyframes center-animate3 {
+    0% {
+      background-color: inherit;
+    }
+
+    100% {
+      background-color: #FFD700;
+    }
+  }
+
+  .EDesc {
+    position: relative;
+    display: inline-block;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    letter-spacing: 2px;
+    height: auto;
+    top: -70px;
+  }
+
+  .DesignGameDevelopment {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    top: 450px;
+  }
+
+  .d-icons {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    left: 210px;
+    top: -410px;
+  }
+
+  .img1 {
+    display: none;
+  }
+
+  .img2DDev {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: 300px;
+    right: 1px;
+  }
+
+  .dimg3 {
+    display: none;
+  }
+
+  .img1:hover, .img2DDev:hover, .dimg3:hover {
+    filter: drop-shadow(3px 3px #FFD700);
+  }
+
+  .DDescription {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    display: inline-block;
+    top: 130px;
+    right: 50px;
+  }
+
+  .DHeadDec {
+    font-family: 'Poiret One', cursive;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    display: inline-block;
+    position: relative;
+    font-size: 1.5rem;
+    left: -10px;
+    top: -200px;
+    margin: 0px;
+    font-weight: bolder;
+  }
+
+  .DHeadDec1 {
+    font-family: 'Poiret One', cursive;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    display: inline-block;
+    position: relative;
+    font-size: 1.5rem;
+    top: -200px;
+    margin: 0px;
+    font-weight: bolder;
+    right: -10px;
+  }
+
+  .DHead {
+    font-family: 'Noto Serif', serif;
+    font-size: 1.8rem;
+    position: relative;
+    display: inline-block;
+    top: -10px;
+    background-color: inherit;
+  }
+
+  .HeadAnim3Dev.in-view {
+    animation: center-animate3 2s linear 1;
+  }
+
+  @keyframes center-animate3 {
+    0% {
+      background-color: inherit;
+    }
+
+    100% {
+      background-color: #FFD700;
+    }
+  }
+
+  .DescD {
+    position: relative;
+    display: inline-block;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    letter-spacing: 1.5px;
+    height: auto;
+    top: -50px;
+  }
+
+  /* icons animation */
+  .anim.in-view {
+    animation: iconanim;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+  }
+
+  @keyframes iconanim {
+    20% {
+      filter: drop-shadow(3px 3px #FFD700);
+    }
+  }
+
+  /* paragrah animation */
+  .pAnim.in-view {
+    animation-name: fadeInOut;
+    animation-duration: 2s;
+    animation-delay: 100ms;
+  }
+
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .S1End1 {
+    border-style: dotted;
+    border-width: medium;
+    width: 100px;
+    text-align: center;
+    border-top: none;
+    border-spacing: 20px;
+    border-color: #ff7315;
+    position: relative;
+    display: block;
+    top: 680px;
+  }
+
+  #Education {
+    text-align: center;
+    width: 100%;
+    height: 604px;
+    position: relative;
+    display: inline-block;
+    padding-top: 50px;
+    margin-top: -50px;
+    top: 650px;
+  }
+
+  .EducaHead {
+    text-align: center;
+    font-family: 'Galada', cursive;
+    font-size: 4.5rem;
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    bottom: 200px;
+    animation: mymove1 5s infinite;
+  }
+
+  @keyframes mymove1 {
+    50% {
+      text-shadow: 5px 5px #ff7315;
+    }
+  }
+
+  .Tble {
+    overflow: auto;
+    bottom: 200px;
+    position: relative;
+    display: inline-block;
+    width: auto;
+  }
+
+  .EduTable {
+    display: inline-block;
+    position: relative;
+    top: 1px;
+    text-align: left;
+    border-bottom: 5px;
+    border-radius: 4px;
+    border-color: #f4f4f4;
+    border-style: ridge;
+    background-color: #232020;
+    color: #f4f4f4;
+  }
+
+  thead th {
+    font-family: 'Poiret One', cursive;
+    font-size: 2.5rem;
+    font-weight: bold;
+    background-color: #232020;
+    color: #f4f4f4;
+    padding: 10px;
+    height: 80px;
+    text-align: center;
+  }
+
+  table.EduTable td a {
+    color: #f4f4f4;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+  }
+
+  table.EduTable td a:hover {
+    color: #FFD700;
+  }
+
+  tbody td:nth-child(even) {
+    background-color: #f4f4f4;
+    color: #232020;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+  }
+
+  tbody td:nth-child(odd) {
+    background-color: #232020;
+    color: #f4f4f4;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+  }
+
+  td {
+    padding: 20px;
+    border-color: #f4f4f4;
+    border-top: 1px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-style: solid;
+  }
+
+  tr.in-view {
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  .S1EndT {
+    border-style: dotted;
+    border-width: medium;
+    width: 100px;
+    text-align: center;
+    border-top: none;
+    border-spacing: 20px;
+    border-color: #ff7315;
+    position: relative;
+    display: block;
+    top: 450px;
+  }
+
+  #Contact {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    padding-top: 50px;
+    margin-top: -50px;
+    top: 450px;
+  }
+
+  .ContHead {
+    text-align: center;
+    font-family: 'Galada', cursive;
+    font-size: 4.5rem;
+    display: inline-block;
+    position: relative;
+    left: -45px;
+    bottom: 10px;
+    animation: mymove1 5s infinite;
+  }
+
+  @keyframes mymove1 {
+    50% {
+      text-shadow: 5px 5px #ff7315;
+    }
+  }
+
+  .Form {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: inline-block;
+    top: 250px;
+    left: 200px;
+  }
+
+  label {
+    padding: 10px;
+    background-color: #232020;
+    color: #f4f4f4;
+    width: 400px;
+    font-family: 'Poiret One', cursive;
+    font-size: 1.5rem;
+    position: relative;
+    right: 305px;
+  }
+
+  label.m {
+    padding: 10px;
+    background-color: #232020;
+    color: #f4f4f4;
+    width: 400px;
+    font-family: 'Poiret One', cursive;
+    font-size: 1.5rem;
+    position: relative;
+    right: 235px;
+    top: 1px;
+  }
+
+  input {
+    padding: 10px;
+    margin: 20px;
+    height: 15px;
+    width: 300px;
+    position: relative;
+    right: 210px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  input:focus {
+    outline-color: #ff7315;
+    outline-width: thick;
+    box-shadow: 5px 5px #ff7315;
+  }
+
+  textarea {
+    padding: 10px;
+    margin: 20px;
+    height: 50px;
+    width: 300px;
+    position: relative;
+    right: 210px;
+    top: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+  }
+
+  textarea:focus {
+    outline-color: #ff7315;
+    outline-width: thick;
+    box-shadow: 5px 5px #ff7315;
+  }
+
+  .Submit {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    right: 200px;
+    bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Poiret One', cursive;
+    font-size: 2rem;
+    background-color: #232020;
+    color: #f4f4f4;
+    outline: 0px;
+  }
+
+  .Submit:hover {
+    background-color: #f4f4f4;
+    color: #232020;
+    box-shadow: 5px 5px #ff7315;
+    outline: 0px;
+  }
+
+  .SocialHead {
+    text-align: center;
+    font-family: 'Galada', cursive;
+    font-size: 3.5rem;
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    top: 400px;
+    width: 100%
+    animation: mymove3 5s infinite;
+  }
+
+  @keyframes mymove3 {
+    50% {
+      text-shadow: 5px 5px #FFD700;
+    }
+  }
+
+  .ArrImg {
+    width: 30px;
+    height: 50px;
+    display: inline-block;
+    position: relative;
+    top: 470px;
+    animation: arrowanim 3s infinite;
+    left: -160px;
+  }
+
+  @keyframes arrowanim {
+    0% {
+      filter: drop-shadow(3px 5px #FFD700);
+    }
+
+    50% {
+      filter: drop-shadow(3px 5px #ff7315);
+    }
+
+    100% {
+      filter: drop-shadow(3px 5px #FFD700);
+    }
+  }
+
+  .SocialImg {
+    display: inline-block;
+    position: relative;
+    top: 400px;
+    background-color: inherit;
+    width: 100%;
+    height: 50px;
+    border-radius: 2px;
+    left: 10px;
+  }
+
+  .IconProp {
+    color: #232020;
+    padding: 20px;
+  }
+
+  .IconPropMAIL {
+    color: #232020;
+    position: relative;
+    display: inline-block;
+    left: -10px;
+    top: 5px;
+  }
+
+  .IconPropMAIL:hover {
+    color: #D44638;
+  }
+
+  .Mail {
+    font-family: 'Poiret One', cursive;
+    text-decoration: none;
+    color: #232020;
+    font-size: 1.2rem;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    bottom: 15px;
+  }
+
+  .highlight {
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #232020;
+    font-size: 1.5rem;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-top: 2px;
+    bottom: 20px;
+  }
+
+  .highlight:hover {
+    color: #D44638;
+  }
+
+  .fa-linkedin:hover {
+    color: #0e76a8;
+  }
+
+  .fa-instagram:hover {
+    color: #C13584;
+  }
+
+  .fa-facebook-square:hover {
+    color: #3b5998;
+  }
+
+  .fa-twitter-square:hover {
+    color: #00acee;
+  }
+
+  footer {
+    background-color: #232020;
+    width: auto;
+    height: 50px;
+    display: block;
+    position: relative;
+    top: 850px;
+  }
+
+  .Foot {
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #f4f4f4;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1200px) and (max-width:1507px) {
+  body.sec {
+    background-color: #f4f4f;
+    height: 100%;
+    background-image: url("https://www.transparenttextures.com/patterns/subtle-dots.png");
+    color: #232020;
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  html {
+    display: block;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+
+  .nav {
+    width: 100%;
+    height: 100px;
+    background-color: #232020;
+    position: fixed;
+    z-index: 1;
+    display: block;
+  }
+
+  .name {
+    color: #f4f4f4;
+    padding: 1.6rem;
+    margin: 0px;
+    display: inline-block;
+    position: relative;
+    left: 900px;
+    font-family: 'Galada', cursive;
+    font-weight: lighter;
+    font-size: 2rem;
+    letter-spacing: .1rem;
+    text-decoration: none;
+  }
+
+  @media (min-width: 1300px) {
+    .name {
+      color: #f4f4f4;
+      padding: 1.6rem;
+      margin: 0px;
+      display: inline-block;
+      position: relative;
+      left: 1000px;
+      font-family: 'Galada', cursive;
+      font-weight: lighter;
+      font-size: 2rem;
+      letter-spacing: .1rem;
+      text-decoration: none;
+    }
+  }
+
+  @media (min-width: 1400px) {
+    .name {
+      color: #f4f4f4;
+      padding: 1.6rem;
+      margin: 0px;
+      display: inline-block;
+      position: relative;
+      left: 1100px;
+      font-family: 'Galada', cursive;
+      font-weight: lighter;
+      font-size: 2rem;
+      letter-spacing: .1rem;
+      text-decoration: none;
+    }
+  }
+
+  @media (min-width: 1500px) {
+    .name {
+      color: #f4f4f4;
+      padding: 1.6rem;
+      margin: 0px;
+      display: inline-block;
+      position: relative;
+      left: 1200px;
+      font-family: 'Galada', cursive;
+      font-weight: lighter;
+      font-size: 2rem;
+      letter-spacing: .1rem;
+      text-decoration: none;
+    }
+  }
+
+  #wordChanger {
+    color: #f4f4f4;
+    font-family: 'Galada', cursive;
+    font-weight: lighter;
+    font-size: 2rem;
+    letter-spacing: .1rem;
+  }
+
+  #wordChanger:hover {
+    color: #FFD700;
+  }
+
+  #wordChanger:before {
+    content: 'Kiran B L';
+    right: 0px;
+    animation: changeText 10s ease reverse forwards infinite;
+  }
+
+  @keyframes changeText {
+    100% {
+      content: 'Kiran B L';
+      opacity: 0;
+    }
+
+    95% {
+      content: 'Kiran B L';
+      opacity: 1;
+    }
+
+    80% {
+      content: 'Kiran B L';
+      opacity: 1;
+    }
+
+    76% {
+      content: 'Kiran B L';
+      opacity: 0;
+    }
+
+    75% {
+      content: 'Download';
+      opacity: 0;
+    }
+
+    70% {
+      content: 'Download';
+      opacity: 1;
+    }
+
+    55% {
+      content: 'Download';
+      opacity: 1;
+    }
+
+    51% {
+      content: 'Download';
+      opacity: 0;
+    }
+
+    50% {
+      content: 'Resume';
+      opacity: 0;
+    }
+
+    45% {
+      content: 'Resume';
+      opacity: 1;
+    }
+
+    30% {
+      content: 'Resume';
+      opacity: 1;
+    }
+
+    26% {
+      content: 'Resume';
+      opacity: 0;
+    }
+
+    25% {
+      content: 'Kiran B L';
+      opacity: 0;
+    }
+
+    20% {
+      content: 'Kiran B L';
+      opacity: 1;
+    }
+
+    5% {
+      content: 'Kiran B L';
+      opacity: 1;
+    }
+
+    0% {
+      content: 'Kiran B L';
+      opacity: 0;
+    }
+  }
+
+  .but {
+    background-color: inherit;
+    padding: 0px;
+    width: 56px;
+    height: 66px;
+    border: 0px;
+    position: relative;
+    left: 25px;
+    top: 0px;
+    border-radius: 5px;
+    outline: 0px;
+  }
+
+  .button-img {
+    color: #f4f4f4;
+  }
+
+  .button-img:hover {
+    color: #ff7315;
+  }
+
+  .nav-menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 100px;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+    opacity: 0.8;
+  }
+
+  a.navA {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #f4f4f4;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Poiret One', cursive;
+  }
+
+  a.navA:hover {
+    color: #ff7315;
+  }
+
+  .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  .Heading {
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+    display: inline-block;
+    padding: 20px;
+    visibility: hidden;
+  }
+
+  #About {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+  }
+
+  .HeadingAbout {
+    font-family: 'Galada', cursive;
+    font-size: 10rem;
+    right: 250px;
+    position: relative;
+    display: inline-block;
+    font-weight: lighter;
+    top: 100px;
+    margin: 0px;
+    letter-spacing: 10px;
+    margin-left: 0px;
+    animation: tada 3s 1 ease;
+  }
+
+  .H {
+    font-family: 'Galada', cursive;
+    font-size: 30rem;
+    font-weight: lighter;
+    top: 60px;
+    left: 40px;
+    letter-spacing: -30px;
+    animation: tada 3s 1 ease;
+  }
+
+  @keyframes tada {
+    from {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+
+    10%,
+    20% {
+      -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+      transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+    }
+
+    30%,
+    50%,
+    70%,
+    90% {
+      -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+      transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    }
+
+    40%,
+    60%,
+    80% {
+      -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+      transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    }
+
+    to {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  }
+
+  .Greeting {
+    text-align: left;
+    font-family: 'Poiret One', cursive;
+    position: relative;
+    display: inline-block;
+    left: -450px;
+    top: -40px;
+    background-color: inherit;
+    text-decoration: none;
+  }
+
+  .l {
+    padding: 2px;
+    color: gray;
+    position: relative;
+    display: block;
+    font-size: 1rem;
+    transition: 0.3s;
+    animation-name: zoomIn;
+    animation-duration: 1s;
+  }
+
+  @keyframes zoomIn {
+    from {
+      opacity: 0;
+      -webkit-transform: scale3d(0.3, 0.3, 0.3);
+      transform: scale3d(0.3, 0.3, 0.3);
+    }
+
+    50% {
+      opacity: 1;
+    }
+  }
+
+  .l:hover {
+    color: black;
+    font-size: 2.5rem;
+  }
+
+  .ProPic {
+    width: 450px;
+    height: 300px;
+    top: 150px;
+    right: 100px;
+    position: absolute;
+    display: inline-block;
+  }
+
+  .bio {
+    font-family: 'Poiret One', cursive;
+    font-size: 1.8rem;
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    top: 440px;
+    right: 10px;
+    margin: 0px;
+    width: 500px;
+    font-weight: 400;
+  }
+
+  .IMP {
+    font-family: 'Poiret One', cursive;
+    font-size: 2.0rem;
+    font-weight: 600;
+  }
+
+  .IMP1 {
+    color: #232020;
+    font-family: 'Poiret One', cursive;
+    font-size: 2.0rem;
+    border-radius: 10%;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .IMP1:hover {
+    color: #ff7315;
+  }
+
+  .S1End {
+    border-style: dotted;
+    border-width: thick;
+    width: 100px;
+    text-align: center;
+    border-top: none;
+    border-spacing: 20px;
+    border-color: #ff7315;
+  }
+
+  #MySkills {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    padding-top: 50px;
+    margin-top: -50px;
+    top: 50px;
+  }
+
+  .quote {
+    text-align: center;
+    font-family: 'Galada', cursive;
+    font-size: 4.5rem;
+    display: inline-block;
+    position: relative;
+    left: -65px;
+    bottom: 20px;
+    animation: mymove 5s infinite;
+  }
+
+  @keyframes mymove {
+    50% {
+      text-shadow: 5px 6px #ff7315;
+    }
+  }
+
+  .Programming {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    top: -80px;
+  }
+
+  .Programming-icons {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    left: -100px;
+    top: 150px;
+  }
+
+  .img1 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    right: 100px;
+  }
+
+  .img2 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+  }
+
+  .img3 {
+    width: 100px;
+    height: 105px;
+    position: relative;
+    left: 100px;
+    bottom: 105px;
+  }
+
+  .img1:hover, .img2:hover, .img3:hover {
+    filter: drop-shadow(3px 3px #FFD700);
+  }
+
+  .Description {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    display: inline-block;
+    top: 150px;
+    right: -250px;
+  }
+
+  .ProgHeadDec {
+    font-family: 'Poiret One', cursive;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    display: inline-block;
+    position: relative;
+    font-size: 1rem;
+    left: -320px;
+    top: 40px;
+    margin: 0px;
+    font-weight: bolder;
+  }
+
+  .ProgHeadDec1 {
+    font-family: 'Poiret One', cursive;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    display: inline-block;
+    position: relative;
+    font-size: 1rem;
+    top: 40px;
+    margin: 0px;
+    font-weight: bolder;
+    right: -320px;
+  }
+
+  .ProgHead {
+    font-family: 'Noto Serif', serif;
+    font-size: 1.8rem;
+    position: relative;
+    display: inline-block;
+    top: -50px;
+    background-color: inherit;
+  }
+
+  .HeadAnimDev.in-view {
+    animation: center-animate4 2s linear 1;
+  }
+
+  @keyframes center-animate4 {
+    0% {
+      background-color: inherit;
+    }
+
+    100% {
+      background-color: #FFD700;
+    }
+  }
+
+  .Desc {
+    position: relative;
+    display: inline-block;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    letter-spacing: 2px;
+    height: auto;
+    top: -70px;
+  }
+
+  .WebDevelopment {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    top: 50px;
+  }
+
+  .Web-icons {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    left: -100px;
+    top: 150px;
+  }
+
+  .wimg1 {
+    width: 130px;
+    height: 120px;
+    position: relative;
+    right: 110px;
+    top: 10px;
+  }
+
+  .img2 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+  }
+
+  .wimg3 {
+    width: 100px;
+    height: 105px;
+    position: relative;
+    left: 100px;
+    bottom: 115px;
+  }
+
+  .wimg1:hover, .img2d:hover, .wimg3:hover {
+    filter: drop-shadow(3px 3px #FFD700);
+  }
+
+  .WDescription {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    display: inline-block;
+    top: 250px;
+    left: 250px;
+  }
+
+  .WebHeadDec {
+    font-family: 'Poiret One', cursive;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    display: inline-block;
+    position: relative;
+    font-size: 1rem;
+    left: -320px;
+    top: 80px;
+    margin: 0px;
+    font-weight: bolder;
+  }
+
+  .WebHeadDec1 {
+    font-family: 'Poiret One', cursive;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    display: inline-block;
+    position: relative;
+    font-size: 1rem;
+    top: 80px;
+    margin: 0px;
+    font-weight: bolder;
+    right: -320px;
+  }
+
+  .WebHead {
+    font-family: 'Noto Serif', serif;
+    font-size: 1.8rem;
+    position: relative;
+    display: inline-block;
+    top: -50px;
+    background-color: inherit;
+  }
+
+  .HeadAnim1Dev.in-view {
+    animation: center-animate4 2s linear 1;
+  }
+
+  @keyframes center-animate4 {
+    0% {
+      background-color: inherit;
+    }
+
+    100% {
+      background-color: #FFD700;
+    }
+  }
+
+  .WDesc {
+    position: relative;
+    display: inline-block;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    letter-spacing: 2px;
+    height: auto;
+    top: -70px;
+  }
+
+  .EthicalHacking {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    top: 300px;
+  }
+
+  .e-icons {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    left: -100px;
+    top: 150px;
+  }
+
+  .img1 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    right: 100px;
+  }
+
+  .img2 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+  }
+
+  .img3 {
+    width: 100px;
+    height: 105px;
+    position: relative;
+    left: 100px;
+    bottom: 105px;
+  }
+
+  .img1:hover, .img2WDev:hover, .img3:hover {
+    filter: drop-shadow(3px 3px #FFD700);
+  }
+
+  .eDescription {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    display: inline-block;
+    top: 120px;
+    right: -250px;
+  }
+
+  .ETHICAL {
+    font-family: 'Poiret One', cursive;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    display: inline-block;
+    position: relative;
+    font-size: 1rem;
+    left: -320px;
+    top: 80px;
+    margin: 0px;
+    font-weight: bolder;
+  }
+
+  .ETHICAL1 {
+    font-family: 'Poiret One', cursive;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    display: inline-block;
+    position: relative;
+    font-size: 1rem;
+    top: 80px;
+    margin: 0px;
+    font-weight: bolder;
+    right: -320px;
+  }
+
+  .EHead {
+    font-family: 'Noto Serif', serif;
+    font-size: 1.8rem;
+    position: relative;
+    display: inline-block;
+    top: -50px;
+    background-color: inherit;
+  }
+
+  .HeadAnim2Dev.in-view {
+    animation: center-animate4 2s linear 1;
+  }
+
+  @keyframes center-animate4 {
+    0% {
+      background-color: inherit;
+    }
+
+    100% {
+      background-color: #FFD700;
+    }
+  }
+
+  .EDesc {
+    position: relative;
+    display: inline-block;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    letter-spacing: 2px;
+    height: auto;
+    top: -70px;
+  }
+
+  .DesignGameDevelopment {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    top: 250px;
+  }
+
+  .d-icons {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    left: -100px;
+    top: -150px;
+  }
+
+  .img1 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    right: 100px;
+  }
+
+  .img2 {
+    width: 110px;
+    height: 110px;
+    position: relative;
+  }
+
+  .dimg3 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 100px;
+    bottom: 105px;
+  }
+
+  .img1:hover, .img2DDev:hover, .dimg3:hover {
+    filter: drop-shadow(3px 3px #FFD700);
+  }
+
+  .DDescription {
+    width: 450px;
+    height: 450px;
+    position: relative;
+    display: inline-block;
+    top: 180px;
+    right: -250px;
+  }
+
+  .DHeadDec {
+    font-family: 'Poiret One', cursive;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    display: inline-block;
+    position: relative;
+    font-size: 1.5rem;
+    left: -290px;
+    top: -200px;
+    margin: 0px;
+    font-weight: bolder;
+  }
+
+  .DHeadDec1 {
+    font-family: 'Poiret One', cursive;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    display: inline-block;
+    position: relative;
+    font-size: 1.5rem;
+    top: -200px;
+    margin: 0px;
+    font-weight: bolder;
+    right: -290px;
+  }
+
+  .DHead {
+    font-family: 'Noto Serif', serif;
+    font-size: 1.8rem;
+    position: relative;
+    display: inline-block;
+    top: -50px;
+    background-color: inherit;
+  }
+
+  .HeadAnim3Dev.in-view {
+    animation: center-animate4 2s linear 1;
+  }
+
+  @keyframes center-animate4 {
+    0% {
+      background-color: inherit;
+    }
+
+    100% {
+      background-color: #FFD700;
+    }
+  }
+
+  .DescD {
+    position: relative;
+    display: inline-block;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    letter-spacing: 1.5px;
+    height: auto;
+    top: -50px;
+  }
+
+  /* icons animation */
+  .anim.in-view {
+    animation: iconanim;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+  }
+
+  @keyframes iconanim {
+    20% {
+      filter: drop-shadow(3px 3px #FFD700);
+    }
+  }
+
+  /* paragrah animation */
+  .pAnim.in-view {
+    animation-name: fadeInOut;
+    animation-duration: 2s;
+    animation-delay: 100ms;
+  }
+
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .S1End1 {
+    border-style: dotted;
+    border-width: medium;
+    width: 100px;
+    text-align: center;
+    border-top: none;
+    border-spacing: 20px;
+    border-color: #ff7315;
+    position: relative;
+    display: block;
+    top: 680px;
+  }
+
+  #Education {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    padding-top: 50px;
+    margin-top: -50px;
+    top: 650px;
+  }
+
+  .EducaHead {
+    text-align: center;
+    font-family: 'Galada', cursive;
+    font-size: 6rem;
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    bottom: 200px;
+    animation: mymove1 5s infinite;
+  }
+
+  @keyframes mymove1 {
+    50% {
+      text-shadow: 5px 5px #ff7315;
+    }
+  }
+
+  .Tble {
+    overflow: auto;
+    top: -250px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+
+  .EduTable {
+    display: inline-block;
+    position: relative;
+    top: 1px;
+    text-align: left;
+    border-bottom: 5px;
+    border-radius: 4px;
+    border-color: #f4f4f4;
+    border-style: ridge;
+    background-color: #232020;
+    color: #f4f4f4;
+  }
+
+  thead th {
+    font-family: 'Poiret One', cursive;
+    font-size: 2.5rem;
+    font-weight: bold;
+    background-color: #232020;
+    color: #f4f4f4;
+    padding: 10px;
+    height: 80px;
+    text-align: center;
+  }
+
+  table.EduTable td a {
+    color: #f4f4f4;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+  }
+
+  table.EduTable td a:hover {
+    color: #FFD700;
+  }
+
+  tbody td:nth-child(even) {
+    background-color: #f4f4f4;
+    color: #232020;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+  }
+
+  tbody td:nth-child(odd) {
+    background-color: #232020;
+    color: #f4f4f4;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+  }
+
+  td {
+    padding: 20px;
+    border-color: #f4f4f4;
+    border-top: 1px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-style: solid;
+  }
+
+  tr.in-view {
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  .S1EndT {
+    border-style: dotted;
+    border-width: medium;
+    width: 100px;
+    text-align: center;
+    border-top: none;
+    border-spacing: 20px;
+    border-color: #ff7315;
+    position: relative;
+    display: block;
+    top: 450px;
+  }
+
+  #Contact {
+    text-align: center;
+    width: 100%;
+    height: 700px;
+    position: relative;
+    display: inline-block;
+    padding-top: 50px;
+    margin-top: -50px;
+    top: 450px;
+  }
+
+  .ContHead {
+    text-align: center;
+    font-family: 'Galada', cursive;
+    font-size: 6.5rem;
+    display: inline-block;
+    position: relative;
+    right: 50px;
+    bottom: 50px;
+    animation: mymove1 5s infinite;
+  }
+
+  @keyframes mymove1 {
+    50% {
+      text-shadow: 5px 5px #ff7315;
+    }
+  }
+
+  .Form {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    display: inline-block;
+    top: 300px;
+    left: 50px;
+  }
+
+  label {
+    padding: 10px;
+    background-color: #232020;
+    color: #f4f4f4;
+    width: 400px;
+    font-family: 'Poiret One', cursive;
+    font-size: 2rem;
+    position: relative;
+    right: 500px;
+  }
+
+  label.m {
+    padding: 10px;
+    background-color: #232020;
+    color: #f4f4f4;
+    width: 400px;
+    font-family: 'Poiret One', cursive;
+    font-size: 2rem;
+    position: relative;
+    right: 405px;
+    top: 1px;
+  }
+
+  input {
+    padding: 10px;
+    margin: 20px;
+    height: 20px;
+    width: 400px;
+    position: relative;
+    right: 375px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  input:focus {
+    outline-color: #ff7315;
+    outline-width: thick;
+    box-shadow: 5px 5px #ff7315;
+  }
+
+  textarea {
+    padding: 10px;
+    margin: 20px;
+    height: 50px;
+    width: 400px;
+    position: relative;
+    right: 375px;
+    top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+  }
+
+  textarea:focus {
+    outline-color: #ff7315;
+    outline-width: thick;
+    box-shadow: 5px 5px #ff7315;
+  }
+
+  .Submit {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    right: 50px;
+    bottom: 70px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Poiret One', cursive;
+    font-size: 2rem;
+    background-color: #232020;
+    color: #f4f4f4;
+    outline: 0px;
+  }
+
+  .Submit:hover {
+    background-color: #f4f4f4;
+    color: #232020;
+    box-shadow: 5px 5px #ff7315;
+    outline: 0px;
+  }
+
+  .SocialHead {
+    text-align: center;
+    font-family: 'Galada', cursive;
+    font-size: 4rem;
+    display: inline-block;
+    position: relative;
+    left: 360px;
+    bottom: 100px;
+    width: 100%;
+    animation: mymove3 5s infinite;
+  }
+
+  @keyframes mymove3 {
+    50% {
+      text-shadow: 5px 5px #FFD700;
+    }
+  }
+
+  .ArrImg {
+    width: 40px;
+    height: 60px;
+    display: inline-block;
+    position: relative;
+    bottom: 270px;
+    animation: arrowanim 3s infinite;
+    left: 670px;
+  }
+
+  @keyframes arrowanim {
+    0% {
+      filter: drop-shadow(3px 5px #FFD700);
+    }
+
+    50% {
+      filter: drop-shadow(3px 5px #ff7315);
+    }
+
+    100% {
+      filter: drop-shadow(3px 5px #FFD700);
+    }
+  }
+
+  .SocialImg {
+    display: inline-block;
+    position: relative;
+    top: -100px;
+    background-color: inherit;
+    width: 600px;
+    height: 50px;
+    border-radius: 2px;
+    left: 350px;
+  }
+
+  .IconProp {
+    color: #232020;
+    padding: 20px;
+  }
+
+  .IconPropMAIL {
+    color: #232020;
+    position: relative;
+    display: inline-block;
+    left: -10px;
+    top: 5px;
+  }
+
+  .IconPropMAIL:hover {
+    color: #D44638;
+  }
+
+  .Mail {
+    font-family: 'Poiret One', cursive;
+    text-decoration: none;
+    color: #232020;
+    font-size: 1.2rem;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    bottom: 15px;
+  }
+
+  .highlight {
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #232020;
+    font-size: 1.5rem;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-top: 2px;
+    bottom: 20px;
+  }
+
+  .highlight:hover {
+    color: #D44638;
+  }
+
+  .fa-linkedin:hover {
+    color: #0e76a8;
+  }
+
+  .fa-instagram:hover {
+    color: #C13584;
+  }
+
+  .fa-facebook-square:hover {
+    color: #3b5998;
+  }
+
+  .fa-twitter-square:hover {
+    color: #00acee;
+  }
+
+  footer {
+    background-color: #232020;
+    width: auto;
+    height: 50px;
+    display: block;
+    position: relative;
+    top: 500px;
+  }
+
+  .Foot {
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #f4f4f4;
+    text-align: center;
+  }
+}
