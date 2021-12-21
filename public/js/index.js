@@ -6,37 +6,6 @@ $(".but").on("click", function() {
 $(".closebtn").on("click", function() {
   $(".nav-menu").css("width", "0px");
 });
-const firebase = require("firebase");
-
-var firebaseConfig = {
-  apiKey: "AIzaSyA5lf3OzM2yC7PMzxp3yJqedOjfmUaotR4",
-  authDomain: "iot-webapp-53fe3.firebaseapp.com",
-  databaseURL: "https://iot-webapp-53fe3-default-rtdb.firebaseio.com",
-  projectId: "iot-webapp-53fe3",
-  storageBucket: "iot-webapp-53fe3.appspot.com",
-  messagingSenderId: "1096874791295",
-  appId: "1:1096874791295:web:94066cdfd67ef03daa0a4a",
-  measurementId: "G-PPCJPELDPR"
-};
-// Initialize Firebase
-firebase.initializeApp(firebaseConfig);
-
-const messaging = firebase.messaging();
-
-
-messaging.getToken({ vapidKey: 'BLCUl4o2A4BdegSp-Vm3FBSy4zhSyGIWZAMN7qRJx_j0SA7rboZCHh4bcC4qqGFYOghNiZvk9EQbKKqrcZN-pco' }).then((currentToken) => {
-    if (currentToken) {
-      // Send the token to your server and update the UI if necessary
-      // ...
-    } else {
-      // Show permission request UI
-      console.log('No registration token available. Request permission to generate one.');
-      // ...
-    }
-  }).catch((err) => {
-    console.log('An error occurred while retrieving token. ', err);
-    // ...
-  });
 
 
 
