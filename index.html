@@ -290,7 +290,25 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-messaging.js"></script>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
 
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyDDLUUa4qOybkCHmwml_EkHBmN3hEmpZts",
+    authDomain: "mywebsite-18902.firebaseapp.com",
+    projectId: "mywebsite-18902",
+    storageBucket: "mywebsite-18902.appspot.com",
+    messagingSenderId: "998652817850",
+    appId: "1:998652817850:web:cc7292323313907cc66d83"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script>
   <script src=" public\js\index.js"> </script>
 </body>
 
